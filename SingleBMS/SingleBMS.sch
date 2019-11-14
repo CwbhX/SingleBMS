@@ -14,157 +14,1081 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT14
 U 1 1 5DCB60F2
-P 4200 1500
-F 0 "BT?" V 4455 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 4364 1550 50  0000 C CNN
-F 2 "" V 4200 1560 50  0001 C CNN
-F 3 "~" V 4200 1560 50  0001 C CNN
-	1    4200 1500
+P 4200 1000
+F 0 "BT14" V 4455 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 4364 1050 50  0000 C CNN
+F 2 "" V 4200 1060 50  0001 C CNN
+F 3 "~" V 4200 1060 50  0001 C CNN
+	1    4200 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT13
 U 1 1 5DCB94CC
-P 4700 1500
-F 0 "BT?" V 4955 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 4864 1550 50  0000 C CNN
-F 2 "" V 4700 1560 50  0001 C CNN
-F 3 "~" V 4700 1560 50  0001 C CNN
-	1    4700 1500
+P 4700 1000
+F 0 "BT13" V 4955 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 4864 1050 50  0000 C CNN
+F 2 "" V 4700 1060 50  0001 C CNN
+F 3 "~" V 4700 1060 50  0001 C CNN
+	1    4700 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT12
 U 1 1 5DCB9AD7
-P 5200 1500
-F 0 "BT?" V 5455 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 5364 1550 50  0000 C CNN
-F 2 "" V 5200 1560 50  0001 C CNN
-F 3 "~" V 5200 1560 50  0001 C CNN
-	1    5200 1500
+P 5200 1000
+F 0 "BT12" V 5455 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 5364 1050 50  0000 C CNN
+F 2 "" V 5200 1060 50  0001 C CNN
+F 3 "~" V 5200 1060 50  0001 C CNN
+	1    5200 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT11
 U 1 1 5DCB9ECF
-P 5700 1500
-F 0 "BT?" V 5955 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 5864 1550 50  0000 C CNN
-F 2 "" V 5700 1560 50  0001 C CNN
-F 3 "~" V 5700 1560 50  0001 C CNN
-	1    5700 1500
+P 5700 1000
+F 0 "BT11" V 5955 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 5864 1050 50  0000 C CNN
+F 2 "" V 5700 1060 50  0001 C CNN
+F 3 "~" V 5700 1060 50  0001 C CNN
+	1    5700 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT10
 U 1 1 5DCBA2C1
-P 6200 1500
-F 0 "BT?" V 6455 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 6364 1550 50  0000 C CNN
-F 2 "" V 6200 1560 50  0001 C CNN
-F 3 "~" V 6200 1560 50  0001 C CNN
-	1    6200 1500
+P 6200 1000
+F 0 "BT10" V 6455 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 6364 1050 50  0000 C CNN
+F 2 "" V 6200 1060 50  0001 C CNN
+F 3 "~" V 6200 1060 50  0001 C CNN
+	1    6200 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT9
 U 1 1 5DCBA8E4
-P 6700 1500
-F 0 "BT?" V 6955 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 6864 1550 50  0000 C CNN
-F 2 "" V 6700 1560 50  0001 C CNN
-F 3 "~" V 6700 1560 50  0001 C CNN
-	1    6700 1500
+P 6700 1000
+F 0 "BT9" V 6955 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 6864 1050 50  0000 C CNN
+F 2 "" V 6700 1060 50  0001 C CNN
+F 3 "~" V 6700 1060 50  0001 C CNN
+	1    6700 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT8
 U 1 1 5DCC1CA5
-P 7200 1500
-F 0 "BT?" V 7455 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 7364 1550 50  0000 C CNN
-F 2 "" V 7200 1560 50  0001 C CNN
-F 3 "~" V 7200 1560 50  0001 C CNN
-	1    7200 1500
+P 7200 1000
+F 0 "BT8" V 7455 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 7364 1050 50  0000 C CNN
+F 2 "" V 7200 1060 50  0001 C CNN
+F 3 "~" V 7200 1060 50  0001 C CNN
+	1    7200 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT7
 U 1 1 5DCC21BE
-P 7700 1500
-F 0 "BT?" V 7955 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 7864 1550 50  0000 C CNN
-F 2 "" V 7700 1560 50  0001 C CNN
-F 3 "~" V 7700 1560 50  0001 C CNN
-	1    7700 1500
+P 7700 1000
+F 0 "BT7" V 7955 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 7864 1050 50  0000 C CNN
+F 2 "" V 7700 1060 50  0001 C CNN
+F 3 "~" V 7700 1060 50  0001 C CNN
+	1    7700 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT6
 U 1 1 5DCC2709
-P 8200 1500
-F 0 "BT?" V 8455 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 8364 1550 50  0000 C CNN
-F 2 "" V 8200 1560 50  0001 C CNN
-F 3 "~" V 8200 1560 50  0001 C CNN
-	1    8200 1500
+P 8200 1000
+F 0 "BT6" V 8455 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 8364 1050 50  0000 C CNN
+F 2 "" V 8200 1060 50  0001 C CNN
+F 3 "~" V 8200 1060 50  0001 C CNN
+	1    8200 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT5
 U 1 1 5DCC2C77
-P 8700 1500
-F 0 "BT?" V 8955 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 8864 1550 50  0000 C CNN
-F 2 "" V 8700 1560 50  0001 C CNN
-F 3 "~" V 8700 1560 50  0001 C CNN
-	1    8700 1500
+P 8700 1000
+F 0 "BT5" V 8955 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 8864 1050 50  0000 C CNN
+F 2 "" V 8700 1060 50  0001 C CNN
+F 3 "~" V 8700 1060 50  0001 C CNN
+	1    8700 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT4
 U 1 1 5DCC311E
-P 9200 1500
-F 0 "BT?" V 9455 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 9364 1550 50  0000 C CNN
-F 2 "" V 9200 1560 50  0001 C CNN
-F 3 "~" V 9200 1560 50  0001 C CNN
-	1    9200 1500
+P 9200 1000
+F 0 "BT4" V 9455 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 9364 1050 50  0000 C CNN
+F 2 "" V 9200 1060 50  0001 C CNN
+F 3 "~" V 9200 1060 50  0001 C CNN
+	1    9200 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT3
 U 1 1 5DCC350C
-P 9700 1500
-F 0 "BT?" V 9955 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 9864 1550 50  0000 C CNN
-F 2 "" V 9700 1560 50  0001 C CNN
-F 3 "~" V 9700 1560 50  0001 C CNN
-	1    9700 1500
+P 9700 1000
+F 0 "BT3" V 9955 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 9864 1050 50  0000 C CNN
+F 2 "" V 9700 1060 50  0001 C CNN
+F 3 "~" V 9700 1060 50  0001 C CNN
+	1    9700 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT2
 U 1 1 5DCC3ACC
-P 10200 1500
-F 0 "BT?" V 10455 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 10364 1550 50  0000 C CNN
-F 2 "" V 10200 1560 50  0001 C CNN
-F 3 "~" V 10200 1560 50  0001 C CNN
-	1    10200 1500
+P 10200 1000
+F 0 "BT2" V 10455 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 10364 1050 50  0000 C CNN
+F 2 "" V 10200 1060 50  0001 C CNN
+F 3 "~" V 10200 1060 50  0001 C CNN
+	1    10200 1000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT1
 U 1 1 5DCC3E9F
-P 10700 1500
-F 0 "BT?" V 10955 1550 50  0000 C CNN
-F 1 "Battery_Cell" V 10864 1550 50  0000 C CNN
-F 2 "" V 10700 1560 50  0001 C CNN
-F 3 "~" V 10700 1560 50  0001 C CNN
-	1    10700 1500
+P 10700 1000
+F 0 "BT1" V 10955 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 10864 1050 50  0000 C CNN
+F 2 "" V 10700 1060 50  0001 C CNN
+F 3 "~" V 10700 1060 50  0001 C CNN
+	1    10700 1000
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCCBD4D
+P 10500 1650
+F 0 "R?" H 10570 1696 50  0000 L CNN
+F 1 "11k" H 10570 1605 50  0000 L CNN
+F 2 "" V 10430 1650 50  0001 C CNN
+F 3 "~" H 10500 1650 50  0001 C CNN
+	1    10500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCCB744
+P 10500 1300
+F 0 "R?" H 10570 1346 50  0000 L CNN
+F 1 "3k" H 10570 1255 50  0000 L CNN
+F 2 "" V 10430 1300 50  0001 C CNN
+F 3 "~" H 10500 1300 50  0001 C CNN
+	1    10500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCCC64E
+P 10500 1800
+F 0 "#PWR?" H 10500 1550 50  0001 C CNN
+F 1 "GND" H 10505 1627 50  0000 C CNN
+F 2 "" H 10500 1800 50  0001 C CNN
+F 3 "" H 10500 1800 50  0001 C CNN
+	1    10500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCCC98F
+P 11000 1000
+F 0 "#PWR?" H 11000 750 50  0001 C CNN
+F 1 "GND" H 11005 827 50  0000 C CNN
+F 2 "" H 11000 1000 50  0001 C CNN
+F 3 "" H 11000 1000 50  0001 C CNN
+	1    11000 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 1000 11000 1000
+Wire Wire Line
+	10300 1000 10500 1000
+Wire Wire Line
+	9800 1000 10000 1000
+Wire Wire Line
+	9300 1000 9500 1000
+Wire Wire Line
+	8800 1000 9000 1000
+Wire Wire Line
+	8300 1000 8500 1000
+Wire Wire Line
+	7800 1000 8000 1000
+Wire Wire Line
+	7500 1000 7300 1000
+Wire Wire Line
+	7000 1000 6800 1000
+Wire Wire Line
+	6500 1000 6300 1000
+Wire Wire Line
+	6000 1000 5800 1000
+Wire Wire Line
+	5500 1000 5300 1000
+Wire Wire Line
+	5000 1000 4800 1000
+Wire Wire Line
+	4500 1000 4300 1000
+Wire Wire Line
+	10500 1150 10500 1000
+Connection ~ 10500 1000
+Wire Wire Line
+	10500 1450 10500 1500
+$Comp
+L Device:R R?
+U 1 1 5DCD1BED
+P 10000 1300
+F 0 "R?" H 10070 1346 50  0000 L CNN
+F 1 "51k" H 10070 1255 50  0000 L CNN
+F 2 "" V 9930 1300 50  0001 C CNN
+F 3 "~" H 10000 1300 50  0001 C CNN
+	1    10000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD2427
+P 10000 1650
+F 0 "R?" H 10070 1696 50  0000 L CNN
+F 1 "33k" H 10070 1605 50  0000 L CNN
+F 2 "" V 9930 1650 50  0001 C CNN
+F 3 "~" H 10000 1650 50  0001 C CNN
+	1    10000 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 1150 10000 1000
+Connection ~ 10000 1000
+Wire Wire Line
+	10000 1450 10000 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5DCD3199
+P 10000 1800
+F 0 "#PWR?" H 10000 1550 50  0001 C CNN
+F 1 "GND" H 10005 1627 50  0000 C CNN
+F 2 "" H 10000 1800 50  0001 C CNN
+F 3 "" H 10000 1800 50  0001 C CNN
+	1    10000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD34B8
+P 9500 1300
+F 0 "R?" H 9570 1346 50  0000 L CNN
+F 1 "62k" H 9570 1255 50  0000 L CNN
+F 2 "" V 9430 1300 50  0001 C CNN
+F 3 "~" H 9500 1300 50  0001 C CNN
+	1    9500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD3A28
+P 9500 1650
+F 0 "R?" H 9570 1696 50  0000 L CNN
+F 1 "22k" H 9570 1605 50  0000 L CNN
+F 2 "" V 9430 1650 50  0001 C CNN
+F 3 "~" H 9500 1650 50  0001 C CNN
+	1    9500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCD3E1E
+P 9500 1800
+F 0 "#PWR?" H 9500 1550 50  0001 C CNN
+F 1 "GND" H 9505 1627 50  0000 C CNN
+F 2 "" H 9500 1800 50  0001 C CNN
+F 3 "" H 9500 1800 50  0001 C CNN
+	1    9500 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1500 9500 1450
+Wire Wire Line
+	9500 1150 9500 1000
+Connection ~ 9500 1000
+$Comp
+L Device:R R?
+U 1 1 5DCD49A0
+P 9000 1300
+F 0 "R?" H 9070 1346 50  0000 L CNN
+F 1 "82k" H 9070 1255 50  0000 L CNN
+F 2 "" V 8930 1300 50  0001 C CNN
+F 3 "~" H 9000 1300 50  0001 C CNN
+	1    9000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD4DD5
+P 9000 1650
+F 0 "R?" H 9070 1696 50  0000 L CNN
+F 1 "20k" H 9070 1605 50  0000 L CNN
+F 2 "" V 8930 1650 50  0001 C CNN
+F 3 "~" H 9000 1650 50  0001 C CNN
+	1    9000 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 1150 9000 1000
+Connection ~ 9000 1000
+Wire Wire Line
+	9000 1450 9000 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5DCD5CB4
+P 9000 1800
+F 0 "#PWR?" H 9000 1550 50  0001 C CNN
+F 1 "GND" H 9005 1627 50  0000 C CNN
+F 2 "" H 9000 1800 50  0001 C CNN
+F 3 "" H 9000 1800 50  0001 C CNN
+	1    9000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD6063
+P 8500 1300
+F 0 "R?" H 8570 1346 50  0000 L CNN
+F 1 "300k" H 8570 1255 50  0000 L CNN
+F 2 "" V 8430 1300 50  0001 C CNN
+F 3 "~" H 8500 1300 50  0001 C CNN
+	1    8500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD641A
+P 8500 1650
+F 0 "R?" H 8570 1696 50  0000 L CNN
+F 1 "56k" H 8570 1605 50  0000 L CNN
+F 2 "" V 8430 1650 50  0001 C CNN
+F 3 "~" H 8500 1650 50  0001 C CNN
+	1    8500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD66D5
+P 8000 1300
+F 0 "R?" H 8070 1346 50  0000 L CNN
+F 1 "180k" H 8070 1255 50  0000 L CNN
+F 2 "" V 7930 1300 50  0001 C CNN
+F 3 "~" H 8000 1300 50  0001 C CNN
+	1    8000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD6A38
+P 8000 1650
+F 0 "R?" H 8070 1696 50  0000 L CNN
+F 1 "27k" H 8070 1605 50  0000 L CNN
+F 2 "" V 7930 1650 50  0001 C CNN
+F 3 "~" H 8000 1650 50  0001 C CNN
+	1    8000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD6D08
+P 7500 1300
+F 0 "R?" H 7570 1346 50  0000 L CNN
+F 1 "160k" H 7570 1255 50  0000 L CNN
+F 2 "" V 7430 1300 50  0001 C CNN
+F 3 "~" H 7500 1300 50  0001 C CNN
+	1    7500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD7017
+P 7500 1650
+F 0 "R?" H 7570 1696 50  0000 L CNN
+F 1 "20k" H 7570 1605 50  0000 L CNN
+F 2 "" V 7430 1650 50  0001 C CNN
+F 3 "~" H 7500 1650 50  0001 C CNN
+	1    7500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD727E
+P 7000 1300
+F 0 "R?" H 7070 1346 50  0000 L CNN
+F 1 "110k" H 7070 1255 50  0000 L CNN
+F 2 "" V 6930 1300 50  0001 C CNN
+F 3 "~" H 7000 1300 50  0001 C CNN
+	1    7000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD765F
+P 7000 1650
+F 0 "R?" H 7070 1696 50  0000 L CNN
+F 1 "12k" H 7070 1605 50  0000 L CNN
+F 2 "" V 6930 1650 50  0001 C CNN
+F 3 "~" H 7000 1650 50  0001 C CNN
+	1    7000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD79D7
+P 6500 1300
+F 0 "R?" H 6570 1346 50  0000 L CNN
+F 1 "160k" H 6570 1255 50  0000 L CNN
+F 2 "" V 6430 1300 50  0001 C CNN
+F 3 "~" H 6500 1300 50  0001 C CNN
+	1    6500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD7CFB
+P 6500 1650
+F 0 "R?" H 6570 1696 50  0000 L CNN
+F 1 "15k" H 6570 1605 50  0000 L CNN
+F 2 "" V 6430 1650 50  0001 C CNN
+F 3 "~" H 6500 1650 50  0001 C CNN
+	1    6500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD7F77
+P 6000 1300
+F 0 "R?" H 6070 1346 50  0000 L CNN
+F 1 "130k" H 6070 1255 50  0000 L CNN
+F 2 "" V 5930 1300 50  0001 C CNN
+F 3 "~" H 6000 1300 50  0001 C CNN
+	1    6000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD8208
+P 6000 1650
+F 0 "R?" H 6070 1696 50  0000 L CNN
+F 1 "11k" H 6070 1605 50  0000 L CNN
+F 2 "" V 5930 1650 50  0001 C CNN
+F 3 "~" H 6000 1650 50  0001 C CNN
+	1    6000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD8502
+P 5500 1300
+F 0 "R?" H 5570 1346 50  0000 L CNN
+F 1 "130k" H 5570 1255 50  0000 L CNN
+F 2 "" V 5430 1300 50  0001 C CNN
+F 3 "~" H 5500 1300 50  0001 C CNN
+	1    5500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD8976
+P 5000 1300
+F 0 "R?" H 5070 1346 50  0000 L CNN
+F 1 "470k" H 5070 1255 50  0000 L CNN
+F 2 "" V 4930 1300 50  0001 C CNN
+F 3 "~" H 5000 1300 50  0001 C CNN
+	1    5000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD93BB
+P 5500 1650
+F 0 "R?" H 5570 1696 50  0000 L CNN
+F 1 "10k" H 5570 1605 50  0000 L CNN
+F 2 "" V 5430 1650 50  0001 C CNN
+F 3 "~" H 5500 1650 50  0001 C CNN
+	1    5500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD96B5
+P 5000 1650
+F 0 "R?" H 5070 1696 50  0000 L CNN
+F 1 "33k" H 5070 1605 50  0000 L CNN
+F 2 "" V 4930 1650 50  0001 C CNN
+F 3 "~" H 5000 1650 50  0001 C CNN
+	1    5000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD9931
+P 4500 1300
+F 0 "R?" H 4570 1346 50  0000 L CNN
+F 1 "560k" H 4570 1255 50  0000 L CNN
+F 2 "" V 4430 1300 50  0001 C CNN
+F 3 "~" H 4500 1300 50  0001 C CNN
+	1    4500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD9C01
+P 4500 1650
+F 0 "R?" H 4570 1696 50  0000 L CNN
+F 1 "35k" H 4570 1605 50  0000 L CNN
+F 2 "" V 4430 1650 50  0001 C CNN
+F 3 "~" H 4500 1650 50  0001 C CNN
+	1    4500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCD9FF7
+P 4000 1300
+F 0 "R?" H 4070 1346 50  0000 L CNN
+F 1 "270k" H 4070 1255 50  0000 L CNN
+F 2 "" V 3930 1300 50  0001 C CNN
+F 3 "~" H 4000 1300 50  0001 C CNN
+	1    4000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DCDA330
+P 4000 1650
+F 0 "R?" H 4070 1696 50  0000 L CNN
+F 1 "16k" H 4070 1605 50  0000 L CNN
+F 2 "" V 3930 1650 50  0001 C CNN
+F 3 "~" H 4000 1650 50  0001 C CNN
+	1    4000 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1150 8500 1000
+Connection ~ 8500 1000
+Wire Wire Line
+	8500 1450 8500 1500
+Wire Wire Line
+	8000 1150 8000 1000
+Connection ~ 8000 1000
+Wire Wire Line
+	8000 1450 8000 1500
+Wire Wire Line
+	7500 1150 7500 1000
+Connection ~ 7500 1000
+Wire Wire Line
+	7500 1450 7500 1500
+Wire Wire Line
+	7000 1450 7000 1500
+Wire Wire Line
+	7000 1150 7000 1000
+Connection ~ 7000 1000
+Wire Wire Line
+	6500 1150 6500 1000
+Connection ~ 6500 1000
+Wire Wire Line
+	6500 1450 6500 1500
+Wire Wire Line
+	6000 1500 6000 1450
+Wire Wire Line
+	6000 1150 6000 1000
+Connection ~ 6000 1000
+Wire Wire Line
+	5500 1150 5500 1000
+Connection ~ 5500 1000
+Wire Wire Line
+	5500 1500 5500 1450
+Wire Wire Line
+	5000 1500 5000 1450
+Wire Wire Line
+	5000 1150 5000 1000
+Connection ~ 5000 1000
+Wire Wire Line
+	4500 1150 4500 1000
+Connection ~ 4500 1000
+Wire Wire Line
+	4500 1500 4500 1450
+Wire Wire Line
+	4000 1150 4000 1000
+Wire Wire Line
+	4000 1500 4000 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5DCE6B27
+P 8500 1800
+F 0 "#PWR?" H 8500 1550 50  0001 C CNN
+F 1 "GND" H 8505 1627 50  0000 C CNN
+F 2 "" H 8500 1800 50  0001 C CNN
+F 3 "" H 8500 1800 50  0001 C CNN
+	1    8500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCE6E36
+P 8000 1800
+F 0 "#PWR?" H 8000 1550 50  0001 C CNN
+F 1 "GND" H 8005 1627 50  0000 C CNN
+F 2 "" H 8000 1800 50  0001 C CNN
+F 3 "" H 8000 1800 50  0001 C CNN
+	1    8000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCE7013
+P 7500 1800
+F 0 "#PWR?" H 7500 1550 50  0001 C CNN
+F 1 "GND" H 7505 1627 50  0000 C CNN
+F 2 "" H 7500 1800 50  0001 C CNN
+F 3 "" H 7500 1800 50  0001 C CNN
+	1    7500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCE7179
+P 7000 1800
+F 0 "#PWR?" H 7000 1550 50  0001 C CNN
+F 1 "GND" H 7005 1627 50  0000 C CNN
+F 2 "" H 7000 1800 50  0001 C CNN
+F 3 "" H 7000 1800 50  0001 C CNN
+	1    7000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCE7433
+P 6500 1800
+F 0 "#PWR?" H 6500 1550 50  0001 C CNN
+F 1 "GND" H 6505 1627 50  0000 C CNN
+F 2 "" H 6500 1800 50  0001 C CNN
+F 3 "" H 6500 1800 50  0001 C CNN
+	1    6500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCE7654
+P 6000 1800
+F 0 "#PWR?" H 6000 1550 50  0001 C CNN
+F 1 "GND" H 6005 1627 50  0000 C CNN
+F 2 "" H 6000 1800 50  0001 C CNN
+F 3 "" H 6000 1800 50  0001 C CNN
+	1    6000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCE77FE
+P 5500 1800
+F 0 "#PWR?" H 5500 1550 50  0001 C CNN
+F 1 "GND" H 5505 1627 50  0000 C CNN
+F 2 "" H 5500 1800 50  0001 C CNN
+F 3 "" H 5500 1800 50  0001 C CNN
+	1    5500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCE79C9
+P 4500 1800
+F 0 "#PWR?" H 4500 1550 50  0001 C CNN
+F 1 "GND" H 4505 1627 50  0000 C CNN
+F 2 "" H 4500 1800 50  0001 C CNN
+F 3 "" H 4500 1800 50  0001 C CNN
+	1    4500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCE7E86
+P 5000 1800
+F 0 "#PWR?" H 5000 1550 50  0001 C CNN
+F 1 "GND" H 5005 1627 50  0000 C CNN
+F 2 "" H 5000 1800 50  0001 C CNN
+F 3 "" H 5000 1800 50  0001 C CNN
+	1    5000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCE8F5B
+P 4000 1800
+F 0 "#PWR?" H 4000 1550 50  0001 C CNN
+F 1 "GND" H 4005 1627 50  0000 C CNN
+F 2 "" H 4000 1800 50  0001 C CNN
+F 3 "" H 4000 1800 50  0001 C CNN
+	1    4000 1800
+	1    0    0    -1  
+$EndComp
+Text Label 4000 1500 2    50   ~ 0
+B14
+Text Label 4500 1500 2    50   ~ 0
+B13
+Text Label 5000 1500 2    50   ~ 0
+B12
+Text Label 5500 1500 2    50   ~ 0
+B11
+Text Label 6000 1500 2    50   ~ 0
+B10
+Text Label 6500 1500 2    50   ~ 0
+B9
+Text Label 7000 1500 2    50   ~ 0
+B8
+Text Label 7500 1500 2    50   ~ 0
+B7
+Text Label 8000 1500 2    50   ~ 0
+B6
+Text Label 8500 1500 2    50   ~ 0
+B5
+Text Label 9000 1500 2    50   ~ 0
+B4
+Text Label 9500 1500 2    50   ~ 0
+B3
+Text Label 10000 1500 2    50   ~ 0
+B2
+Text Label 10500 1500 2    50   ~ 0
+B1
+$Comp
+L Amplifier_Operational:LM324 U?
+U 5 1 5DD07FD3
+P 9700 4850
+F 0 "U?" V 9375 4850 50  0000 C CNN
+F 1 "LM324" V 9466 4850 50  0000 C CNN
+F 2 "" H 9650 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9750 5050 50  0001 C CNN
+	5    9700 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 4 1 5DCFD344
+P 9700 4100
+F 0 "U?" H 9700 4467 50  0000 C CNN
+F 1 "LM324" H 9700 4376 50  0000 C CNN
+F 2 "" H 9650 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9750 4300 50  0001 C CNN
+	4    9700 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 3 1 5DCFB27F
+P 9700 3600
+F 0 "U?" H 9700 3967 50  0000 C CNN
+F 1 "LM324" H 9700 3876 50  0000 C CNN
+F 2 "" H 9650 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9750 3800 50  0001 C CNN
+	3    9700 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 2 1 5DCF6BD1
+P 9700 3100
+F 0 "U?" H 9700 3467 50  0000 C CNN
+F 1 "LM324" H 9700 3376 50  0000 C CNN
+F 2 "" H 9650 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9750 3300 50  0001 C CNN
+	2    9700 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 5DCEE8A4
+P 9700 2600
+F 0 "U?" H 9700 2967 50  0000 C CNN
+F 1 "LM324" H 9700 2876 50  0000 C CNN
+F 2 "" H 9650 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9750 2800 50  0001 C CNN
+	1    9700 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 5DD223F0
+P 8200 2600
+F 0 "U?" H 8200 2967 50  0000 C CNN
+F 1 "LM324" H 8200 2876 50  0000 C CNN
+F 2 "" H 8150 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8250 2800 50  0001 C CNN
+	1    8200 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 2 1 5DD242A7
+P 8200 3100
+F 0 "U?" H 8200 3467 50  0000 C CNN
+F 1 "LM324" H 8200 3376 50  0000 C CNN
+F 2 "" H 8150 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8250 3300 50  0001 C CNN
+	2    8200 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 3 1 5DD2732D
+P 8200 3600
+F 0 "U?" H 8200 3967 50  0000 C CNN
+F 1 "LM324" H 8200 3876 50  0000 C CNN
+F 2 "" H 8150 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8250 3800 50  0001 C CNN
+	3    8200 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 4 1 5DD29855
+P 8200 4100
+F 0 "U?" H 8200 4467 50  0000 C CNN
+F 1 "LM324" H 8200 4376 50  0000 C CNN
+F 2 "" H 8150 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8250 4300 50  0001 C CNN
+	4    8200 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 5 1 5DD2BB37
+P 8200 4850
+F 0 "U?" V 7875 4850 50  0000 C CNN
+F 1 "LM324" V 7966 4850 50  0000 C CNN
+F 2 "" H 8150 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8250 5050 50  0001 C CNN
+	5    8200 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 5DD2E5AD
+P 6700 2600
+F 0 "U?" H 6700 2967 50  0000 C CNN
+F 1 "LM324" H 6700 2876 50  0000 C CNN
+F 2 "" H 6650 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6750 2800 50  0001 C CNN
+	1    6700 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 2 1 5DD32802
+P 6700 3100
+F 0 "U?" H 6700 3467 50  0000 C CNN
+F 1 "LM324" H 6700 3376 50  0000 C CNN
+F 2 "" H 6650 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6750 3300 50  0001 C CNN
+	2    6700 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 3 1 5DD33976
+P 6700 3600
+F 0 "U?" H 6700 3967 50  0000 C CNN
+F 1 "LM324" H 6700 3876 50  0000 C CNN
+F 2 "" H 6650 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6750 3800 50  0001 C CNN
+	3    6700 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 4 1 5DD35038
+P 6700 4100
+F 0 "U?" H 6700 4467 50  0000 C CNN
+F 1 "LM324" H 6700 4376 50  0000 C CNN
+F 2 "" H 6650 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6750 4300 50  0001 C CNN
+	4    6700 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 5 1 5DD365D7
+P 6700 4850
+F 0 "U?" V 6375 4850 50  0000 C CNN
+F 1 "LM324" V 6466 4850 50  0000 C CNN
+F 2 "" H 6650 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6750 5050 50  0001 C CNN
+	5    6700 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 5DD37991
+P 5200 2600
+F 0 "U?" H 5200 2967 50  0000 C CNN
+F 1 "LM324" H 5200 2876 50  0000 C CNN
+F 2 "" H 5150 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5250 2800 50  0001 C CNN
+	1    5200 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 2 1 5DD39238
+P 5200 3100
+F 0 "U?" H 5200 3467 50  0000 C CNN
+F 1 "LM324" H 5200 3376 50  0000 C CNN
+F 2 "" H 5150 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5250 3300 50  0001 C CNN
+	2    5200 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 3 1 5DD3A46E
+P 5200 3600
+F 0 "U?" H 5200 3967 50  0000 C CNN
+F 1 "LM324" H 5200 3876 50  0000 C CNN
+F 2 "" H 5150 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5250 3800 50  0001 C CNN
+	3    5200 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 4 1 5DD3B5E2
+P 5200 4100
+F 0 "U?" H 5200 4467 50  0000 C CNN
+F 1 "LM324" H 5200 4376 50  0000 C CNN
+F 2 "" H 5150 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5250 4300 50  0001 C CNN
+	4    5200 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 5 1 5DD3CABF
+P 5200 4850
+F 0 "U?" V 4875 4850 50  0000 C CNN
+F 1 "LM324" V 4966 4850 50  0000 C CNN
+F 2 "" H 5150 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5250 5050 50  0001 C CNN
+	5    5200 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Battery_Cell BT15
+U 1 1 5DD3E773
+P 3700 1000
+F 0 "BT15" V 3955 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 3864 1050 50  0000 C CNN
+F 2 "" V 3700 1060 50  0001 C CNN
+F 3 "~" V 3700 1060 50  0001 C CNN
+	1    3700 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Battery_Cell BT16
+U 1 1 5DD3F67D
+P 3200 1000
+F 0 "BT16" V 3455 1050 50  0000 C CNN
+F 1 "Battery_Cell" V 3364 1050 50  0000 C CNN
+F 2 "" V 3200 1060 50  0001 C CNN
+F 3 "~" V 3200 1060 50  0001 C CNN
+	1    3200 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD3FEDA
+P 3500 1300
+F 0 "R?" H 3570 1346 50  0000 L CNN
+F 1 "205k" H 3570 1255 50  0000 L CNN
+F 2 "" V 3430 1300 50  0001 C CNN
+F 3 "~" H 3500 1300 50  0001 C CNN
+	1    3500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD403A2
+P 3500 1650
+F 0 "R?" H 3570 1696 50  0000 L CNN
+F 1 "11300" H 3570 1605 50  0000 L CNN
+F 2 "" V 3430 1650 50  0001 C CNN
+F 3 "~" H 3500 1650 50  0001 C CNN
+	1    3500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DD4065D
+P 3500 1800
+F 0 "#PWR?" H 3500 1550 50  0001 C CNN
+F 1 "GND" H 3505 1627 50  0000 C CNN
+F 2 "" H 3500 1800 50  0001 C CNN
+F 3 "" H 3500 1800 50  0001 C CNN
+	1    3500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD40829
+P 3000 1300
+F 0 "R?" H 3070 1346 50  0000 L CNN
+F 1 "267k" H 3070 1255 50  0000 L CNN
+F 2 "" V 2930 1300 50  0001 C CNN
+F 3 "~" H 3000 1300 50  0001 C CNN
+	1    3000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD40C0A
+P 3000 1650
+F 0 "R?" H 3070 1696 50  0000 L CNN
+F 1 "13.7k" H 3070 1605 50  0000 L CNN
+F 2 "" V 2930 1650 50  0001 C CNN
+F 3 "~" H 3000 1650 50  0001 C CNN
+	1    3000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DD41015
+P 3000 1800
+F 0 "#PWR?" H 3000 1550 50  0001 C CNN
+F 1 "GND" H 3005 1627 50  0000 C CNN
+F 2 "" H 3000 1800 50  0001 C CNN
+F 3 "" H 3000 1800 50  0001 C CNN
+	1    3000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1500 3000 1450
+Wire Wire Line
+	3500 1500 3500 1450
+Wire Wire Line
+	3000 1150 3000 1000
+Wire Wire Line
+	3500 1150 3500 1000
+Wire Wire Line
+	3300 1000 3500 1000
+Connection ~ 3500 1000
+Wire Wire Line
+	3800 1000 4000 1000
+Connection ~ 4000 1000
+Text Label 3500 1500 2    50   ~ 0
+B15
+Text Label 3000 1500 2    50   ~ 0
+B16
 $EndSCHEMATC
