@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:SingleBMS-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -172,7 +173,7 @@ L Device:R R?
 U 1 1 5DCCBD4D
 P 10500 1650
 F 0 "R?" H 10570 1696 50  0000 L CNN
-F 1 "11k" H 10570 1605 50  0000 L CNN
+F 1 "20k" H 10570 1605 50  0000 L CNN
 F 2 "" V 10430 1650 50  0001 C CNN
 F 3 "~" H 10500 1650 50  0001 C CNN
 	1    10500 1650
@@ -183,7 +184,7 @@ L Device:R R?
 U 1 1 5DCCB744
 P 10500 1300
 F 0 "R?" H 10570 1346 50  0000 L CNN
-F 1 "3k" H 10570 1255 50  0000 L CNN
+F 1 "1k" H 10570 1255 50  0000 L CNN
 F 2 "" V 10430 1300 50  0001 C CNN
 F 3 "~" H 10500 1300 50  0001 C CNN
 	1    10500 1300
@@ -249,7 +250,7 @@ L Device:R R?
 U 1 1 5DCD1BED
 P 10000 1300
 F 0 "R?" H 10070 1346 50  0000 L CNN
-F 1 "51k" H 10070 1255 50  0000 L CNN
+F 1 "11k" H 10070 1255 50  0000 L CNN
 F 2 "" V 9930 1300 50  0001 C CNN
 F 3 "~" H 10000 1300 50  0001 C CNN
 	1    10000 1300
@@ -260,7 +261,7 @@ L Device:R R?
 U 1 1 5DCD2427
 P 10000 1650
 F 0 "R?" H 10070 1696 50  0000 L CNN
-F 1 "33k" H 10070 1605 50  0000 L CNN
+F 1 "10k" H 10070 1605 50  0000 L CNN
 F 2 "" V 9930 1650 50  0001 C CNN
 F 3 "~" H 10000 1650 50  0001 C CNN
 	1    10000 1650
@@ -287,7 +288,7 @@ L Device:R R?
 U 1 1 5DCD34B8
 P 9500 1300
 F 0 "R?" H 9570 1346 50  0000 L CNN
-F 1 "62k" H 9570 1255 50  0000 L CNN
+F 1 "21.5k" H 9570 1255 50  0000 L CNN
 F 2 "" V 9430 1300 50  0001 C CNN
 F 3 "~" H 9500 1300 50  0001 C CNN
 	1    9500 1300
@@ -298,7 +299,7 @@ L Device:R R?
 U 1 1 5DCD3A28
 P 9500 1650
 F 0 "R?" H 9570 1696 50  0000 L CNN
-F 1 "22k" H 9570 1605 50  0000 L CNN
+F 1 "10k" H 9570 1605 50  0000 L CNN
 F 2 "" V 9430 1650 50  0001 C CNN
 F 3 "~" H 9500 1650 50  0001 C CNN
 	1    9500 1650
@@ -325,7 +326,7 @@ L Device:R R?
 U 1 1 5DCD49A0
 P 9000 1300
 F 0 "R?" H 9070 1346 50  0000 L CNN
-F 1 "82k" H 9070 1255 50  0000 L CNN
+F 1 "115k" H 9070 1255 50  0000 L CNN
 F 2 "" V 8930 1300 50  0001 C CNN
 F 3 "~" H 9000 1300 50  0001 C CNN
 	1    9000 1300
@@ -336,7 +337,7 @@ L Device:R R?
 U 1 1 5DCD4DD5
 P 9000 1650
 F 0 "R?" H 9070 1696 50  0000 L CNN
-F 1 "20k" H 9070 1605 50  0000 L CNN
+F 1 "35.7k" H 9070 1605 50  0000 L CNN
 F 2 "" V 8930 1650 50  0001 C CNN
 F 3 "~" H 9000 1650 50  0001 C CNN
 	1    9000 1650
@@ -363,7 +364,7 @@ L Device:R R?
 U 1 1 5DCD6063
 P 8500 1300
 F 0 "R?" H 8570 1346 50  0000 L CNN
-F 1 "300k" H 8570 1255 50  0000 L CNN
+F 1 "43.2k" H 8570 1255 50  0000 L CNN
 F 2 "" V 8430 1300 50  0001 C CNN
 F 3 "~" H 8500 1300 50  0001 C CNN
 	1    8500 1300
@@ -374,7 +375,7 @@ L Device:R R?
 U 1 1 5DCD641A
 P 8500 1650
 F 0 "R?" H 8570 1696 50  0000 L CNN
-F 1 "56k" H 8570 1605 50  0000 L CNN
+F 1 "10.2k" H 8570 1605 50  0000 L CNN
 F 2 "" V 8430 1650 50  0001 C CNN
 F 3 "~" H 8500 1650 50  0001 C CNN
 	1    8500 1650
@@ -385,7 +386,7 @@ L Device:R R?
 U 1 1 5DCD66D5
 P 8000 1300
 F 0 "R?" H 8070 1346 50  0000 L CNN
-F 1 "180k" H 8070 1255 50  0000 L CNN
+F 1 "118K" H 8070 1255 50  0000 L CNN
 F 2 "" V 7930 1300 50  0001 C CNN
 F 3 "~" H 8000 1300 50  0001 C CNN
 	1    8000 1300
@@ -396,7 +397,7 @@ L Device:R R?
 U 1 1 5DCD6A38
 P 8000 1650
 F 0 "R?" H 8070 1696 50  0000 L CNN
-F 1 "27k" H 8070 1605 50  0000 L CNN
+F 1 "22.1k" H 8070 1605 50  0000 L CNN
 F 2 "" V 7930 1650 50  0001 C CNN
 F 3 "~" H 8000 1650 50  0001 C CNN
 	1    8000 1650
@@ -407,7 +408,7 @@ L Device:R R?
 U 1 1 5DCD6D08
 P 7500 1300
 F 0 "R?" H 7570 1346 50  0000 L CNN
-F 1 "160k" H 7570 1255 50  0000 L CNN
+F 1 "127K" H 7570 1255 50  0000 L CNN
 F 2 "" V 7430 1300 50  0001 C CNN
 F 3 "~" H 7500 1300 50  0001 C CNN
 	1    7500 1300
@@ -418,7 +419,7 @@ L Device:R R?
 U 1 1 5DCD7017
 P 7500 1650
 F 0 "R?" H 7570 1696 50  0000 L CNN
-F 1 "20k" H 7570 1605 50  0000 L CNN
+F 1 "20K" H 7570 1605 50  0000 L CNN
 F 2 "" V 7430 1650 50  0001 C CNN
 F 3 "~" H 7500 1650 50  0001 C CNN
 	1    7500 1650
@@ -429,7 +430,7 @@ L Device:R R?
 U 1 1 5DCD727E
 P 7000 1300
 F 0 "R?" H 7070 1346 50  0000 L CNN
-F 1 "110k" H 7070 1255 50  0000 L CNN
+F 1 "102K" H 7070 1255 50  0000 L CNN
 F 2 "" V 6930 1300 50  0001 C CNN
 F 3 "~" H 7000 1300 50  0001 C CNN
 	1    7000 1300
@@ -440,7 +441,7 @@ L Device:R R?
 U 1 1 5DCD765F
 P 7000 1650
 F 0 "R?" H 7070 1696 50  0000 L CNN
-F 1 "12k" H 7070 1605 50  0000 L CNN
+F 1 "13.7K" H 7070 1605 50  0000 L CNN
 F 2 "" V 6930 1650 50  0001 C CNN
 F 3 "~" H 7000 1650 50  0001 C CNN
 	1    7000 1650
@@ -451,7 +452,7 @@ L Device:R R?
 U 1 1 5DCD79D7
 P 6500 1300
 F 0 "R?" H 6570 1346 50  0000 L CNN
-F 1 "160k" H 6570 1255 50  0000 L CNN
+F 1 "84.5K" H 6570 1255 50  0000 L CNN
 F 2 "" V 6430 1300 50  0001 C CNN
 F 3 "~" H 6500 1300 50  0001 C CNN
 	1    6500 1300
@@ -462,7 +463,7 @@ L Device:R R?
 U 1 1 5DCD7CFB
 P 6500 1650
 F 0 "R?" H 6570 1696 50  0000 L CNN
-F 1 "15k" H 6570 1605 50  0000 L CNN
+F 1 "10K" H 6570 1605 50  0000 L CNN
 F 2 "" V 6430 1650 50  0001 C CNN
 F 3 "~" H 6500 1650 50  0001 C CNN
 	1    6500 1650
@@ -473,7 +474,7 @@ L Device:R R?
 U 1 1 5DCD7F77
 P 6000 1300
 F 0 "R?" H 6070 1346 50  0000 L CNN
-F 1 "130k" H 6070 1255 50  0000 L CNN
+F 1 "133K" H 6070 1255 50  0000 L CNN
 F 2 "" V 5930 1300 50  0001 C CNN
 F 3 "~" H 6000 1300 50  0001 C CNN
 	1    6000 1300
@@ -484,7 +485,7 @@ L Device:R R?
 U 1 1 5DCD8208
 P 6000 1650
 F 0 "R?" H 6070 1696 50  0000 L CNN
-F 1 "11k" H 6070 1605 50  0000 L CNN
+F 1 "14K" H 6070 1605 50  0000 L CNN
 F 2 "" V 5930 1650 50  0001 C CNN
 F 3 "~" H 6000 1650 50  0001 C CNN
 	1    6000 1650
@@ -495,7 +496,7 @@ L Device:R R?
 U 1 1 5DCD8502
 P 5500 1300
 F 0 "R?" H 5570 1346 50  0000 L CNN
-F 1 "130k" H 5570 1255 50  0000 L CNN
+F 1 "174k" H 5570 1255 50  0000 L CNN
 F 2 "" V 5430 1300 50  0001 C CNN
 F 3 "~" H 5500 1300 50  0001 C CNN
 	1    5500 1300
@@ -506,7 +507,7 @@ L Device:R R?
 U 1 1 5DCD8976
 P 5000 1300
 F 0 "R?" H 5070 1346 50  0000 L CNN
-F 1 "470k" H 5070 1255 50  0000 L CNN
+F 1 "232k" H 5070 1255 50  0000 L CNN
 F 2 "" V 4930 1300 50  0001 C CNN
 F 3 "~" H 5000 1300 50  0001 C CNN
 	1    5000 1300
@@ -517,7 +518,7 @@ L Device:R R?
 U 1 1 5DCD93BB
 P 5500 1650
 F 0 "R?" H 5570 1696 50  0000 L CNN
-F 1 "10k" H 5570 1605 50  0000 L CNN
+F 1 "16.5k" H 5570 1605 50  0000 L CNN
 F 2 "" V 5430 1650 50  0001 C CNN
 F 3 "~" H 5500 1650 50  0001 C CNN
 	1    5500 1650
@@ -528,7 +529,7 @@ L Device:R R?
 U 1 1 5DCD96B5
 P 5000 1650
 F 0 "R?" H 5070 1696 50  0000 L CNN
-F 1 "33k" H 5070 1605 50  0000 L CNN
+F 1 "20k" H 5070 1605 50  0000 L CNN
 F 2 "" V 4930 1650 50  0001 C CNN
 F 3 "~" H 5000 1650 50  0001 C CNN
 	1    5000 1650
@@ -539,7 +540,7 @@ L Device:R R?
 U 1 1 5DCD9931
 P 4500 1300
 F 0 "R?" H 4570 1346 50  0000 L CNN
-F 1 "560k" H 4570 1255 50  0000 L CNN
+F 1 "205k" H 4570 1255 50  0000 L CNN
 F 2 "" V 4430 1300 50  0001 C CNN
 F 3 "~" H 4500 1300 50  0001 C CNN
 	1    4500 1300
@@ -550,7 +551,7 @@ L Device:R R?
 U 1 1 5DCD9C01
 P 4500 1650
 F 0 "R?" H 4570 1696 50  0000 L CNN
-F 1 "35k" H 4570 1605 50  0000 L CNN
+F 1 "16.2k" H 4570 1605 50  0000 L CNN
 F 2 "" V 4430 1650 50  0001 C CNN
 F 3 "~" H 4500 1650 50  0001 C CNN
 	1    4500 1650
@@ -561,7 +562,7 @@ L Device:R R?
 U 1 1 5DCD9FF7
 P 4000 1300
 F 0 "R?" H 4070 1346 50  0000 L CNN
-F 1 "270k" H 4070 1255 50  0000 L CNN
+F 1 "137k" H 4070 1255 50  0000 L CNN
 F 2 "" V 3930 1300 50  0001 C CNN
 F 3 "~" H 4000 1300 50  0001 C CNN
 	1    4000 1300
@@ -572,7 +573,7 @@ L Device:R R?
 U 1 1 5DCDA330
 P 4000 1650
 F 0 "R?" H 4070 1696 50  0000 L CNN
-F 1 "16k" H 4070 1605 50  0000 L CNN
+F 1 "10k" H 4070 1605 50  0000 L CNN
 F 2 "" V 3930 1650 50  0001 C CNN
 F 3 "~" H 4000 1650 50  0001 C CNN
 	1    4000 1650
@@ -766,226 +767,6 @@ B2
 Text Label 10500 1500 2    50   ~ 0
 B1
 $Comp
-L Amplifier_Operational:LM324 U?
-U 5 1 5DD07FD3
-P 9700 4850
-F 0 "U?" V 9375 4850 50  0000 C CNN
-F 1 "LM324" V 9466 4850 50  0000 C CNN
-F 2 "" H 9650 4950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9750 5050 50  0001 C CNN
-	5    9700 4850
-	0    1    1    0   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 4 1 5DCFD344
-P 9700 4100
-F 0 "U?" H 9700 4467 50  0000 C CNN
-F 1 "LM324" H 9700 4376 50  0000 C CNN
-F 2 "" H 9650 4200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9750 4300 50  0001 C CNN
-	4    9700 4100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 3 1 5DCFB27F
-P 9700 3600
-F 0 "U?" H 9700 3967 50  0000 C CNN
-F 1 "LM324" H 9700 3876 50  0000 C CNN
-F 2 "" H 9650 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9750 3800 50  0001 C CNN
-	3    9700 3600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 2 1 5DCF6BD1
-P 9700 3100
-F 0 "U?" H 9700 3467 50  0000 C CNN
-F 1 "LM324" H 9700 3376 50  0000 C CNN
-F 2 "" H 9650 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9750 3300 50  0001 C CNN
-	2    9700 3100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 1 1 5DCEE8A4
-P 9700 2600
-F 0 "U?" H 9700 2967 50  0000 C CNN
-F 1 "LM324" H 9700 2876 50  0000 C CNN
-F 2 "" H 9650 2700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9750 2800 50  0001 C CNN
-	1    9700 2600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 1 1 5DD223F0
-P 8200 2600
-F 0 "U?" H 8200 2967 50  0000 C CNN
-F 1 "LM324" H 8200 2876 50  0000 C CNN
-F 2 "" H 8150 2700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8250 2800 50  0001 C CNN
-	1    8200 2600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 2 1 5DD242A7
-P 8200 3100
-F 0 "U?" H 8200 3467 50  0000 C CNN
-F 1 "LM324" H 8200 3376 50  0000 C CNN
-F 2 "" H 8150 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8250 3300 50  0001 C CNN
-	2    8200 3100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 3 1 5DD2732D
-P 8200 3600
-F 0 "U?" H 8200 3967 50  0000 C CNN
-F 1 "LM324" H 8200 3876 50  0000 C CNN
-F 2 "" H 8150 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8250 3800 50  0001 C CNN
-	3    8200 3600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 4 1 5DD29855
-P 8200 4100
-F 0 "U?" H 8200 4467 50  0000 C CNN
-F 1 "LM324" H 8200 4376 50  0000 C CNN
-F 2 "" H 8150 4200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8250 4300 50  0001 C CNN
-	4    8200 4100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 5 1 5DD2BB37
-P 8200 4850
-F 0 "U?" V 7875 4850 50  0000 C CNN
-F 1 "LM324" V 7966 4850 50  0000 C CNN
-F 2 "" H 8150 4950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8250 5050 50  0001 C CNN
-	5    8200 4850
-	0    1    1    0   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 1 1 5DD2E5AD
-P 6700 2600
-F 0 "U?" H 6700 2967 50  0000 C CNN
-F 1 "LM324" H 6700 2876 50  0000 C CNN
-F 2 "" H 6650 2700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6750 2800 50  0001 C CNN
-	1    6700 2600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 2 1 5DD32802
-P 6700 3100
-F 0 "U?" H 6700 3467 50  0000 C CNN
-F 1 "LM324" H 6700 3376 50  0000 C CNN
-F 2 "" H 6650 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6750 3300 50  0001 C CNN
-	2    6700 3100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 3 1 5DD33976
-P 6700 3600
-F 0 "U?" H 6700 3967 50  0000 C CNN
-F 1 "LM324" H 6700 3876 50  0000 C CNN
-F 2 "" H 6650 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6750 3800 50  0001 C CNN
-	3    6700 3600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 4 1 5DD35038
-P 6700 4100
-F 0 "U?" H 6700 4467 50  0000 C CNN
-F 1 "LM324" H 6700 4376 50  0000 C CNN
-F 2 "" H 6650 4200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6750 4300 50  0001 C CNN
-	4    6700 4100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 5 1 5DD365D7
-P 6700 4850
-F 0 "U?" V 6375 4850 50  0000 C CNN
-F 1 "LM324" V 6466 4850 50  0000 C CNN
-F 2 "" H 6650 4950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6750 5050 50  0001 C CNN
-	5    6700 4850
-	0    1    1    0   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 1 1 5DD37991
-P 5200 2600
-F 0 "U?" H 5200 2967 50  0000 C CNN
-F 1 "LM324" H 5200 2876 50  0000 C CNN
-F 2 "" H 5150 2700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5250 2800 50  0001 C CNN
-	1    5200 2600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 2 1 5DD39238
-P 5200 3100
-F 0 "U?" H 5200 3467 50  0000 C CNN
-F 1 "LM324" H 5200 3376 50  0000 C CNN
-F 2 "" H 5150 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5250 3300 50  0001 C CNN
-	2    5200 3100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 3 1 5DD3A46E
-P 5200 3600
-F 0 "U?" H 5200 3967 50  0000 C CNN
-F 1 "LM324" H 5200 3876 50  0000 C CNN
-F 2 "" H 5150 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5250 3800 50  0001 C CNN
-	3    5200 3600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 4 1 5DD3B5E2
-P 5200 4100
-F 0 "U?" H 5200 4467 50  0000 C CNN
-F 1 "LM324" H 5200 4376 50  0000 C CNN
-F 2 "" H 5150 4200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5250 4300 50  0001 C CNN
-	4    5200 4100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 5 1 5DD3CABF
-P 5200 4850
-F 0 "U?" V 4875 4850 50  0000 C CNN
-F 1 "LM324" V 4966 4850 50  0000 C CNN
-F 2 "" H 5150 4950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5250 5050 50  0001 C CNN
-	5    5200 4850
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:Battery_Cell BT15
 U 1 1 5DD3E773
 P 3700 1000
@@ -1012,7 +793,7 @@ L Device:R R?
 U 1 1 5DD3FEDA
 P 3500 1300
 F 0 "R?" H 3570 1346 50  0000 L CNN
-F 1 "205k" H 3570 1255 50  0000 L CNN
+F 1 "174k" H 3570 1255 50  0000 L CNN
 F 2 "" V 3430 1300 50  0001 C CNN
 F 3 "~" H 3500 1300 50  0001 C CNN
 	1    3500 1300
@@ -1023,7 +804,7 @@ L Device:R R?
 U 1 1 5DD403A2
 P 3500 1650
 F 0 "R?" H 3570 1696 50  0000 L CNN
-F 1 "11300" H 3570 1605 50  0000 L CNN
+F 1 "11.8k" H 3570 1605 50  0000 L CNN
 F 2 "" V 3430 1650 50  0001 C CNN
 F 3 "~" H 3500 1650 50  0001 C CNN
 	1    3500 1650
@@ -1045,7 +826,7 @@ L Device:R R?
 U 1 1 5DD40829
 P 3000 1300
 F 0 "R?" H 3070 1346 50  0000 L CNN
-F 1 "267k" H 3070 1255 50  0000 L CNN
+F 1 "158k" H 3070 1255 50  0000 L CNN
 F 2 "" V 2930 1300 50  0001 C CNN
 F 3 "~" H 3000 1300 50  0001 C CNN
 	1    3000 1300
@@ -1056,7 +837,7 @@ L Device:R R?
 U 1 1 5DD40C0A
 P 3000 1650
 F 0 "R?" H 3070 1696 50  0000 L CNN
-F 1 "13.7k" H 3070 1605 50  0000 L CNN
+F 1 "10k" H 3070 1605 50  0000 L CNN
 F 2 "" V 2930 1650 50  0001 C CNN
 F 3 "~" H 3000 1650 50  0001 C CNN
 	1    3000 1650
@@ -1091,4 +872,435 @@ Text Label 3500 1500 2    50   ~ 0
 B15
 Text Label 3000 1500 2    50   ~ 0
 B16
+Text Notes 2100 1000 0    50   ~ 0
+All Voltage Dividers:\nMax Voltage: 4.0v
+Text Notes 2950 700  0    50   ~ 0
+67.2v
+Text Notes 10500 700  0    50   ~ 0
+4.2v
+Text Notes 7000 700  0    50   ~ 0
+33.6v
+$Comp
+L 74xx:CD74HC4067M U?
+U 1 1 5DD45332
+P 4200 3850
+F 0 "U?" H 4200 5031 50  0000 C CNN
+F 1 "CD74HC4067M" H 4200 4940 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 5100 2850 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 3850 4700 50  0001 C CNN
+	1    4200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 5DD4B4E4
+P 9300 2700
+F 0 "U?" H 9300 3067 50  0000 C CNN
+F 1 "LM324" H 9300 2976 50  0000 C CNN
+F 2 "" H 9250 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9350 2900 50  0001 C CNN
+	1    9300 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 2 1 5DD4E50D
+P 9300 3350
+F 0 "U?" H 9300 3717 50  0000 C CNN
+F 1 "LM324" H 9300 3626 50  0000 C CNN
+F 2 "" H 9250 3450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9350 3550 50  0001 C CNN
+	2    9300 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 3 1 5DD512DE
+P 9300 4000
+F 0 "U?" H 9300 4367 50  0000 C CNN
+F 1 "LM324" H 9300 4276 50  0000 C CNN
+F 2 "" H 9250 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9350 4200 50  0001 C CNN
+	3    9300 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 4 1 5DD54846
+P 9300 4650
+F 0 "U?" H 9300 5017 50  0000 C CNN
+F 1 "LM324" H 9300 4926 50  0000 C CNN
+F 2 "" H 9250 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9350 4850 50  0001 C CNN
+	4    9300 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 5 1 5DD573D6
+P 9300 5400
+F 0 "U?" V 8975 5400 50  0000 C CNN
+F 1 "LM324" V 9066 5400 50  0000 C CNN
+F 2 "" H 9250 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9350 5600 50  0001 C CNN
+	5    9300 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 5DD5CFE6
+P 8300 2700
+F 0 "U?" H 8300 3067 50  0000 C CNN
+F 1 "LM324" H 8300 2976 50  0000 C CNN
+F 2 "" H 8250 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8350 2900 50  0001 C CNN
+	1    8300 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 2 1 5DD5CFF0
+P 8300 3350
+F 0 "U?" H 8300 3717 50  0000 C CNN
+F 1 "LM324" H 8300 3626 50  0000 C CNN
+F 2 "" H 8250 3450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8350 3550 50  0001 C CNN
+	2    8300 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 3 1 5DD5CFFA
+P 8300 4000
+F 0 "U?" H 8300 4367 50  0000 C CNN
+F 1 "LM324" H 8300 4276 50  0000 C CNN
+F 2 "" H 8250 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8350 4200 50  0001 C CNN
+	3    8300 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 4 1 5DD5D004
+P 8300 4650
+F 0 "U?" H 8300 5017 50  0000 C CNN
+F 1 "LM324" H 8300 4926 50  0000 C CNN
+F 2 "" H 8250 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8350 4850 50  0001 C CNN
+	4    8300 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 5 1 5DD5D00E
+P 8300 5400
+F 0 "U?" V 7975 5400 50  0000 C CNN
+F 1 "LM324" V 8066 5400 50  0000 C CNN
+F 2 "" H 8250 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8350 5600 50  0001 C CNN
+	5    8300 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 5DD6A965
+P 7300 2700
+F 0 "U?" H 7300 3067 50  0000 C CNN
+F 1 "LM324" H 7300 2976 50  0000 C CNN
+F 2 "" H 7250 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7350 2900 50  0001 C CNN
+	1    7300 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 2 1 5DD6A96F
+P 7300 3350
+F 0 "U?" H 7300 3717 50  0000 C CNN
+F 1 "LM324" H 7300 3626 50  0000 C CNN
+F 2 "" H 7250 3450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7350 3550 50  0001 C CNN
+	2    7300 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 3 1 5DD6A979
+P 7300 4000
+F 0 "U?" H 7300 4367 50  0000 C CNN
+F 1 "LM324" H 7300 4276 50  0000 C CNN
+F 2 "" H 7250 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7350 4200 50  0001 C CNN
+	3    7300 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 4 1 5DD6A983
+P 7300 4650
+F 0 "U?" H 7300 5017 50  0000 C CNN
+F 1 "LM324" H 7300 4926 50  0000 C CNN
+F 2 "" H 7250 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7350 4850 50  0001 C CNN
+	4    7300 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 5 1 5DD6A98D
+P 7300 5400
+F 0 "U?" V 6975 5400 50  0000 C CNN
+F 1 "LM324" V 7066 5400 50  0000 C CNN
+F 2 "" H 7250 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7350 5600 50  0001 C CNN
+	5    7300 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 5DD6A997
+P 6300 2700
+F 0 "U?" H 6300 3067 50  0000 C CNN
+F 1 "LM324" H 6300 2976 50  0000 C CNN
+F 2 "" H 6250 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6350 2900 50  0001 C CNN
+	1    6300 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 2 1 5DD6A9A1
+P 6300 3350
+F 0 "U?" H 6300 3717 50  0000 C CNN
+F 1 "LM324" H 6300 3626 50  0000 C CNN
+F 2 "" H 6250 3450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6350 3550 50  0001 C CNN
+	2    6300 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 3 1 5DD6A9AB
+P 6300 4000
+F 0 "U?" H 6300 4367 50  0000 C CNN
+F 1 "LM324" H 6300 4276 50  0000 C CNN
+F 2 "" H 6250 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6350 4200 50  0001 C CNN
+	3    6300 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 4 1 5DD6A9B5
+P 6300 4650
+F 0 "U?" H 6300 5017 50  0000 C CNN
+F 1 "LM324" H 6300 4926 50  0000 C CNN
+F 2 "" H 6250 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6350 4850 50  0001 C CNN
+	4    6300 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 5 1 5DD6A9BF
+P 6300 5400
+F 0 "U?" V 5975 5400 50  0000 C CNN
+F 1 "LM324" V 6066 5400 50  0000 C CNN
+F 2 "" H 6250 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6350 5600 50  0001 C CNN
+	5    6300 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 4650 6000 4900
+Wire Wire Line
+	6000 4900 6600 4900
+Wire Wire Line
+	6600 4900 6600 4750
+Wire Wire Line
+	6000 4000 6000 4250
+Wire Wire Line
+	6000 4250 6600 4250
+Wire Wire Line
+	6600 4250 6600 4100
+Wire Wire Line
+	6000 3350 6000 3600
+Wire Wire Line
+	6000 3600 6600 3600
+Wire Wire Line
+	6600 3600 6600 3450
+Wire Wire Line
+	6000 2700 6000 2950
+Wire Wire Line
+	6000 2950 6600 2950
+Wire Wire Line
+	6600 2950 6600 2800
+Wire Wire Line
+	7000 2700 7000 2950
+Wire Wire Line
+	7000 2950 7600 2950
+Wire Wire Line
+	7600 2950 7600 2800
+Wire Wire Line
+	7000 3350 7000 3600
+Wire Wire Line
+	7000 3600 7600 3600
+Wire Wire Line
+	7600 3600 7600 3450
+Wire Wire Line
+	7000 4000 7000 4250
+Wire Wire Line
+	7000 4250 7600 4250
+Wire Wire Line
+	7600 4250 7600 4100
+Wire Wire Line
+	7000 4650 7000 4900
+Wire Wire Line
+	7000 4900 7600 4900
+Wire Wire Line
+	7600 4900 7600 4750
+Wire Wire Line
+	8000 2700 8000 2950
+Wire Wire Line
+	8000 2950 8600 2950
+Wire Wire Line
+	8600 2950 8600 2800
+Wire Wire Line
+	8000 3350 8000 3600
+Wire Wire Line
+	8000 3600 8600 3600
+Wire Wire Line
+	8600 3600 8600 3450
+Wire Wire Line
+	8000 4000 8000 4250
+Wire Wire Line
+	8000 4250 8600 4250
+Wire Wire Line
+	8600 4250 8600 4100
+Wire Wire Line
+	8000 4650 8000 4900
+Wire Wire Line
+	8000 4900 8600 4900
+Wire Wire Line
+	8600 4900 8600 4750
+Wire Wire Line
+	9000 2700 9000 2950
+Wire Wire Line
+	9000 2950 9600 2950
+Wire Wire Line
+	9600 2950 9600 2800
+Wire Wire Line
+	9000 3350 9000 3600
+Wire Wire Line
+	9000 3600 9600 3600
+Wire Wire Line
+	9600 3600 9600 3450
+Wire Wire Line
+	9000 4000 9000 4250
+Wire Wire Line
+	9000 4250 9600 4250
+Wire Wire Line
+	9600 4250 9600 4100
+Wire Wire Line
+	9000 4650 9000 4900
+Wire Wire Line
+	9000 4900 9600 4900
+Wire Wire Line
+	9600 4900 9600 4750
+Text Label 6000 2700 2    50   ~ 0
+BB16
+Text Label 6000 3350 2    50   ~ 0
+BB15
+Text Label 6000 4000 2    50   ~ 0
+BB14
+Text Label 6000 4650 2    50   ~ 0
+BB13
+Text Label 7000 2700 2    50   ~ 0
+BB12
+Text Label 7000 3350 2    50   ~ 0
+BB11
+Text Label 7000 4000 2    50   ~ 0
+BB10
+Text Label 7000 4650 2    50   ~ 0
+BB9
+Text Label 8000 2700 2    50   ~ 0
+BB8
+Text Label 8000 3350 2    50   ~ 0
+BB7
+Text Label 8000 4000 2    50   ~ 0
+BB6
+Text Label 8000 4650 2    50   ~ 0
+BB5
+Text Label 9000 2700 2    50   ~ 0
+BB4
+Text Label 9000 3350 2    50   ~ 0
+BB3
+Text Label 9000 4000 2    50   ~ 0
+BB2
+Text Label 9000 4650 2    50   ~ 0
+BB1
+Text Label 6600 2600 0    50   ~ 0
+B16
+Text Label 6600 3250 0    50   ~ 0
+B15
+Text Label 6600 3900 0    50   ~ 0
+B14
+Text Label 6600 4550 0    50   ~ 0
+B13
+Text Label 7600 2600 0    50   ~ 0
+B12
+Text Label 7600 3250 0    50   ~ 0
+B11
+Text Label 7600 3900 0    50   ~ 0
+B10
+Text Label 7600 4550 0    50   ~ 0
+B9
+Text Label 8600 2600 0    50   ~ 0
+B8
+Text Label 8600 3250 0    50   ~ 0
+B7
+Text Label 8600 3900 0    50   ~ 0
+B6
+Text Label 8600 4550 0    50   ~ 0
+B5
+Text Label 9600 2600 0    50   ~ 0
+B4
+Text Label 9600 3250 0    50   ~ 0
+B3
+Text Label 9600 3900 0    50   ~ 0
+B2
+Text Label 9600 4550 0    50   ~ 0
+B1
+Text Label 4700 3150 0    50   ~ 0
+BB1
+Text Label 4700 3250 0    50   ~ 0
+BB2
+Text Label 4700 3350 0    50   ~ 0
+BB3
+Text Label 4700 3450 0    50   ~ 0
+BB4
+Text Label 4700 3550 0    50   ~ 0
+BB5
+Text Label 4700 3650 0    50   ~ 0
+BB6
+Text Label 4700 3750 0    50   ~ 0
+BB7
+Text Label 4700 3850 0    50   ~ 0
+BB8
+Text Label 4700 3950 0    50   ~ 0
+BB9
+Text Label 4700 4050 0    50   ~ 0
+BB10
+Text Label 4700 4150 0    50   ~ 0
+BB11
+Text Label 4700 4250 0    50   ~ 0
+BB12
+Text Label 4700 4350 0    50   ~ 0
+BB13
+Text Label 4700 4450 0    50   ~ 0
+BB14
+Text Label 4700 4550 0    50   ~ 0
+BB15
+Text Label 4700 4650 0    50   ~ 0
+BB16
 $EndSCHEMATC
