@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -1607,4 +1607,22 @@ Wire Wire Line
 	5750 6500 5750 5700
 Wire Wire Line
 	5750 5700 5350 5700
+$Comp
+L Isolator:PC817 U?
+U 1 1 5DD38D34
+P 1850 6800
+F 0 "U?" H 1850 7125 50  0000 C CNN
+F 1 "PC817" H 1850 7034 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 1650 6600 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1850 6800 50  0001 L CNN
+	1    1850 6800
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 10200 3400 850  1050
+U 5DD3929E
+F0 "buffers" 50
+F1 "buffers.sch" 50
+F2 "b1" I L 10200 3800 50 
+$EndSheet
 $EndSCHEMATC
