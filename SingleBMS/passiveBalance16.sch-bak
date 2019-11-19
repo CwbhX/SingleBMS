@@ -1518,4 +1518,6 @@ Wire Wire Line
 	1250 5050 1250 5100
 Wire Wire Line
 	1300 4850 1250 4850
+Text Notes 2800 5450 0    50   ~ 0
+w/ a RDSon of 5 Ohms\nBalance Current: 0.210A
 $EndSCHEMATC

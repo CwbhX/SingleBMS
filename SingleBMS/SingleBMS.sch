@@ -249,7 +249,7 @@ L Device:R R?
 U 1 1 5DF06F1C
 P 2550 3950
 F 0 "R?" V 2650 3950 50  0000 C CNN
-F 1 "20k" V 2450 3950 50  0000 C CNN
+F 1 "50k" V 2450 3950 50  0000 C CNN
 F 2 "" V 2480 3950 50  0001 C CNN
 F 3 "~" H 2550 3950 50  0001 C CNN
 	1    2550 3950
@@ -797,4 +797,6 @@ Wire Wire Line
 Wire Wire Line
 	7250 7300 6000 7300
 NoConn ~ 6850 6500
+Text Notes 1950 4700 0    50   ~ 10
+Do I need a buffer stage here?
 $EndSCHEMATC
