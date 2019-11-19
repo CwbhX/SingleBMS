@@ -40,17 +40,6 @@ F 3 "" H 10450 6150 50  0001 C CNN
 $EndComp
 Text Label 10750 5850 0    50   ~ 0
 Vcc
-$Comp
-L Isolator:PC817 U?
-U 1 1 5DD38D34
-P 10550 5000
-F 0 "U?" H 10550 5325 50  0000 C CNN
-F 1 "PC817" H 10550 5234 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 10350 4800 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 10550 5000 50  0001 L CNN
-	1    10550 5000
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 4900 650  1000 1850
 U 5DD83A85
