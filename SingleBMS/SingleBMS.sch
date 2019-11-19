@@ -17,28 +17,15 @@ $EndDescr
 $Comp
 L Regulator_Linear:LM7805_TO220 U?
 U 1 1 5DCF06EA
-P 10450 5850
-F 0 "U?" H 10450 6092 50  0000 C CNN
-F 1 "LM7805_TO220" H 10450 6001 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 10450 6075 50  0001 C CIN
-F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 10450 5800 50  0001 C CNN
-	1    10450 5850
+P 7900 5700
+F 0 "U?" H 7900 5942 50  0000 C CNN
+F 1 "LM7805_TO220" H 7900 5851 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7900 5925 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 7900 5650 50  0001 C CNN
+	1    7900 5700
 	1    0    0    -1  
 $EndComp
-Text Label 10150 5850 2    50   ~ 0
-V2cell
-$Comp
-L power:GND #PWR?
-U 1 1 5DCF3C38
-P 10450 6150
-F 0 "#PWR?" H 10450 5900 50  0001 C CNN
-F 1 "GND" H 10455 5977 50  0000 C CNN
-F 2 "" H 10450 6150 50  0001 C CNN
-F 3 "" H 10450 6150 50  0001 C CNN
-	1    10450 6150
-	1    0    0    -1  
-$EndComp
-Text Label 10750 5850 0    50   ~ 0
+Text Label 8250 5700 0    50   ~ 0
 Vcc
 $Sheet
 S 4900 650  1000 1850
@@ -735,7 +722,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 5800 6000 5800
 Wire Wire Line
-	6350 5900 6000 5900
+	6350 5900 6300 5900
 Wire Wire Line
 	6350 6000 6000 6000
 Wire Wire Line
@@ -799,4 +786,79 @@ Wire Wire Line
 NoConn ~ 6850 6500
 Text Notes 1950 4700 0    50   ~ 10
 Do I need a buffer stage here?
+$Comp
+L power:GND #PWR?
+U 1 1 5E58717E
+P 7900 6100
+F 0 "#PWR?" H 7900 5850 50  0001 C CNN
+F 1 "GND" H 7905 5927 50  0000 C CNN
+F 2 "" H 7900 6100 50  0001 C CNN
+F 3 "" H 7900 6100 50  0001 C CNN
+	1    7900 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5700 8200 5700
+Wire Wire Line
+	7900 6100 7900 6000
+Wire Wire Line
+	7600 5700 7550 5700
+Wire Wire Line
+	7550 5700 7550 5450
+Wire Wire Line
+	7550 5450 6300 5450
+Wire Wire Line
+	6300 5450 6300 5900
+Connection ~ 6300 5900
+Wire Wire Line
+	6300 5900 6000 5900
+Text Label 2550 1200 2    50   ~ 0
+Vcc
+$Comp
+L power:GND #PWR?
+U 1 1 5E5AF40B
+P 2550 2600
+F 0 "#PWR?" H 2550 2350 50  0001 C CNN
+F 1 "GND" H 2555 2427 50  0000 C CNN
+F 2 "" H 2550 2600 50  0001 C CNN
+F 3 "" H 2550 2600 50  0001 C CNN
+	1    2550 2600
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3050 7800 6900 7800
+Wire Notes Line
+	6900 7800 6900 7350
+Wire Notes Line
+	6900 7350 7400 7350
+Wire Notes Line
+	7400 7350 7400 5300
+Wire Notes Line
+	4200 5300 4200 5400
+Wire Notes Line
+	4200 5400 3950 5400
+Wire Notes Line
+	3950 5400 3950 5300
+Wire Notes Line
+	3950 5300 3050 5300
+Wire Notes Line
+	3050 5300 3050 7800
+Wire Notes Line
+	7650 2950 7650 5300
+Wire Notes Line
+	4200 5300 7650 5300
+Wire Notes Line
+	3250 500  8700 500 
+Wire Notes Line
+	8700 500  8700 2950
+Wire Notes Line
+	3250 500  3250 5300
+Wire Notes Line
+	3250 2950 8700 2950
+Text Notes 8150 2950 0    50   Italic 10
+Voltage Sense
+Text Notes 6900 5300 0    50   Italic 10
+Temperature Sense
+Text Notes 6350 7800 0    50   Italic 10
+Cell Balancing
 $EndSCHEMATC
