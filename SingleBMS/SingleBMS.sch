@@ -218,17 +218,6 @@ Wire Wire Line
 	3350 2200 3350 4250
 Wire Wire Line
 	3350 4250 3550 4250
-$Comp
-L Amplifier_Operational:LM324 U?
-U 1 1 5DEFC9EE
-P 2400 3550
-F 0 "U?" H 2400 3917 50  0000 C CNN
-F 1 "LM324" H 2400 3826 50  0000 C CNN
-F 2 "" H 2350 3650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2450 3750 50  0001 C CNN
-	1    2400 3550
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2100 3550 1800 3550
 $Comp
@@ -266,7 +255,6 @@ Wire Wire Line
 	2400 3950 2100 3950
 Wire Wire Line
 	2100 3950 2100 3550
-Connection ~ 2100 3550
 $Comp
 L power:GND #PWR?
 U 1 1 5DF1ADDC
@@ -284,17 +272,6 @@ Wire Wire Line
 	2950 3550 2950 3450
 Wire Wire Line
 	2950 3450 2700 3450
-$Comp
-L Amplifier_Operational:LM324 U?
-U 5 1 5DF270FC
-P 2200 4450
-F 0 "U?" V 1875 4450 50  0000 C CNN
-F 1 "LM324" V 1966 4450 50  0000 C CNN
-F 2 "" H 2150 4550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2250 4650 50  0001 C CNN
-	5    2200 4450
-	0    1    1    0   
-$EndComp
 $Sheet
 S 4900 3200 1100 1800
 U 5DF6B3E6
@@ -381,22 +358,12 @@ L power:GND #PWR?
 U 1 1 5E1386CA
 P 4050 5150
 F 0 "#PWR?" H 4050 4900 50  0001 C CNN
-F 1 "GND" H 4055 4977 50  0000 C CNN
+F 1 "GND" H 4200 5100 50  0000 C CNN
 F 2 "" H 4050 5150 50  0001 C CNN
 F 3 "" H 4050 5150 50  0001 C CNN
 	1    4050 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 1100 3550 1100
-Connection ~ 3550 1100
-Wire Wire Line
-	3550 1100 3600 1100
-Wire Wire Line
-	3050 1500 3550 1500
-Connection ~ 3550 1500
-Wire Wire Line
-	3550 1500 3600 1500
 Wire Wire Line
 	3550 1600 3050 1600
 Wire Wire Line
@@ -834,19 +801,9 @@ Wire Notes Line
 Wire Notes Line
 	7400 7350 7400 5300
 Wire Notes Line
-	4200 5300 4200 5400
-Wire Notes Line
-	4200 5400 3950 5400
-Wire Notes Line
-	3950 5400 3950 5300
-Wire Notes Line
-	3950 5300 3050 5300
-Wire Notes Line
 	3050 5300 3050 7800
 Wire Notes Line
 	7650 2950 7650 5300
-Wire Notes Line
-	4200 5300 7650 5300
 Wire Notes Line
 	3250 500  8700 500 
 Wire Notes Line
@@ -861,4 +818,48 @@ Text Notes 6900 5300 0    50   Italic 10
 Temperature Sense
 Text Notes 6350 7800 0    50   Italic 10
 Cell Balancing
+Wire Wire Line
+	3550 1500 3050 1500
+Wire Wire Line
+	3550 1100 1800 1100
+Wire Notes Line
+	3050 5300 7650 5300
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 1 1 5E65A50C
+P 2400 3550
+F 0 "U?" H 2400 3917 50  0000 C CNN
+F 1 "MCP6004" H 2400 3826 50  0000 C CNN
+F 2 "" H 2350 3650 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2450 3750 50  0001 C CNN
+	1    2400 3550
+	-1   0    0    -1  
+$EndComp
+Connection ~ 2100 3550
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 5 1 5E65C345
+P 2050 4650
+F 0 "U?" V 1725 4650 50  0000 C CNN
+F 1 "MCP6004" V 1816 4650 50  0000 C CNN
+F 2 "" H 2000 4750 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2100 4850 50  0001 C CNN
+	5    2050 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E65EC52
+P 1750 4550
+F 0 "#PWR?" H 1750 4300 50  0001 C CNN
+F 1 "GND" H 1755 4377 50  0000 C CNN
+F 2 "" H 1750 4550 50  0001 C CNN
+F 3 "" H 1750 4550 50  0001 C CNN
+	1    1750 4550
+	1    0    0    -1  
+$EndComp
+Text Label 2350 4550 0    50   ~ 0
+Vcc
+Text Notes 1800 4250 0    50   ~ 0
+Swing: 0.3-4.7v\nTemp: -5-55ºC\nLower voltage = Hotter
 $EndSCHEMATC
