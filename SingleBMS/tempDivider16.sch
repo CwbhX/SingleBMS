@@ -1,0 +1,547 @@
+EESchema Schematic File Version 4
+LIBS:SingleBMS-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5E0E102D
+P 1350 3150
+F 0 "R?" H 1420 3196 50  0000 L CNN
+F 1 "100k" H 1420 3105 50  0000 L CNN
+F 2 "" V 1280 3150 50  0001 C CNN
+F 3 "~" H 1350 3150 50  0001 C CNN
+	1    1350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E117A
+P 1950 3150
+F 0 "R?" H 2020 3196 50  0000 L CNN
+F 1 "100k" H 2020 3105 50  0000 L CNN
+F 2 "" V 1880 3150 50  0001 C CNN
+F 3 "~" H 1950 3150 50  0001 C CNN
+	1    1950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E18A5
+P 2550 3150
+F 0 "R?" H 2620 3196 50  0000 L CNN
+F 1 "100k" H 2620 3105 50  0000 L CNN
+F 2 "" V 2480 3150 50  0001 C CNN
+F 3 "~" H 2550 3150 50  0001 C CNN
+	1    2550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E18AF
+P 3150 3150
+F 0 "R?" H 3220 3196 50  0000 L CNN
+F 1 "100k" H 3220 3105 50  0000 L CNN
+F 2 "" V 3080 3150 50  0001 C CNN
+F 3 "~" H 3150 3150 50  0001 C CNN
+	1    3150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E4FA1
+P 3750 3150
+F 0 "R?" H 3820 3196 50  0000 L CNN
+F 1 "100k" H 3820 3105 50  0000 L CNN
+F 2 "" V 3680 3150 50  0001 C CNN
+F 3 "~" H 3750 3150 50  0001 C CNN
+	1    3750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E4FAB
+P 4350 3150
+F 0 "R?" H 4420 3196 50  0000 L CNN
+F 1 "100k" H 4420 3105 50  0000 L CNN
+F 2 "" V 4280 3150 50  0001 C CNN
+F 3 "~" H 4350 3150 50  0001 C CNN
+	1    4350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E4FB5
+P 4950 3150
+F 0 "R?" H 5020 3196 50  0000 L CNN
+F 1 "100k" H 5020 3105 50  0000 L CNN
+F 2 "" V 4880 3150 50  0001 C CNN
+F 3 "~" H 4950 3150 50  0001 C CNN
+	1    4950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E4FBF
+P 5550 3150
+F 0 "R?" H 5620 3196 50  0000 L CNN
+F 1 "100k" H 5620 3105 50  0000 L CNN
+F 2 "" V 5480 3150 50  0001 C CNN
+F 3 "~" H 5550 3150 50  0001 C CNN
+	1    5550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E6873
+P 6150 3150
+F 0 "R?" H 6220 3196 50  0000 L CNN
+F 1 "100k" H 6220 3105 50  0000 L CNN
+F 2 "" V 6080 3150 50  0001 C CNN
+F 3 "~" H 6150 3150 50  0001 C CNN
+	1    6150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E687D
+P 6750 3150
+F 0 "R?" H 6820 3196 50  0000 L CNN
+F 1 "100k" H 6820 3105 50  0000 L CNN
+F 2 "" V 6680 3150 50  0001 C CNN
+F 3 "~" H 6750 3150 50  0001 C CNN
+	1    6750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E6887
+P 7350 3150
+F 0 "R?" H 7420 3196 50  0000 L CNN
+F 1 "100k" H 7420 3105 50  0000 L CNN
+F 2 "" V 7280 3150 50  0001 C CNN
+F 3 "~" H 7350 3150 50  0001 C CNN
+	1    7350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E6891
+P 7950 3150
+F 0 "R?" H 8020 3196 50  0000 L CNN
+F 1 "100k" H 8020 3105 50  0000 L CNN
+F 2 "" V 7880 3150 50  0001 C CNN
+F 3 "~" H 7950 3150 50  0001 C CNN
+	1    7950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E689B
+P 8550 3150
+F 0 "R?" H 8620 3196 50  0000 L CNN
+F 1 "100k" H 8620 3105 50  0000 L CNN
+F 2 "" V 8480 3150 50  0001 C CNN
+F 3 "~" H 8550 3150 50  0001 C CNN
+	1    8550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E68A5
+P 9150 3150
+F 0 "R?" H 9220 3196 50  0000 L CNN
+F 1 "100k" H 9220 3105 50  0000 L CNN
+F 2 "" V 9080 3150 50  0001 C CNN
+F 3 "~" H 9150 3150 50  0001 C CNN
+	1    9150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E68AF
+P 9750 3150
+F 0 "R?" H 9820 3196 50  0000 L CNN
+F 1 "100k" H 9820 3105 50  0000 L CNN
+F 2 "" V 9680 3150 50  0001 C CNN
+F 3 "~" H 9750 3150 50  0001 C CNN
+	1    9750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0E68B9
+P 10350 3150
+F 0 "R?" H 10420 3196 50  0000 L CNN
+F 1 "100k" H 10420 3105 50  0000 L CNN
+F 2 "" V 10280 3150 50  0001 C CNN
+F 3 "~" H 10350 3150 50  0001 C CNN
+	1    10350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F13AF
+P 1350 3300
+F 0 "#PWR?" H 1350 3050 50  0001 C CNN
+F 1 "GND" H 1355 3127 50  0000 C CNN
+F 2 "" H 1350 3300 50  0001 C CNN
+F 3 "" H 1350 3300 50  0001 C CNN
+	1    1350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F17E6
+P 1950 3300
+F 0 "#PWR?" H 1950 3050 50  0001 C CNN
+F 1 "GND" H 1955 3127 50  0000 C CNN
+F 2 "" H 1950 3300 50  0001 C CNN
+F 3 "" H 1950 3300 50  0001 C CNN
+	1    1950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F1BD2
+P 2550 3300
+F 0 "#PWR?" H 2550 3050 50  0001 C CNN
+F 1 "GND" H 2555 3127 50  0000 C CNN
+F 2 "" H 2550 3300 50  0001 C CNN
+F 3 "" H 2550 3300 50  0001 C CNN
+	1    2550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F1FBE
+P 3150 3300
+F 0 "#PWR?" H 3150 3050 50  0001 C CNN
+F 1 "GND" H 3155 3127 50  0000 C CNN
+F 2 "" H 3150 3300 50  0001 C CNN
+F 3 "" H 3150 3300 50  0001 C CNN
+	1    3150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F21F0
+P 3750 3300
+F 0 "#PWR?" H 3750 3050 50  0001 C CNN
+F 1 "GND" H 3755 3127 50  0000 C CNN
+F 2 "" H 3750 3300 50  0001 C CNN
+F 3 "" H 3750 3300 50  0001 C CNN
+	1    3750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F2367
+P 4350 3300
+F 0 "#PWR?" H 4350 3050 50  0001 C CNN
+F 1 "GND" H 4355 3127 50  0000 C CNN
+F 2 "" H 4350 3300 50  0001 C CNN
+F 3 "" H 4350 3300 50  0001 C CNN
+	1    4350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F26FE
+P 4950 3300
+F 0 "#PWR?" H 4950 3050 50  0001 C CNN
+F 1 "GND" H 4955 3127 50  0000 C CNN
+F 2 "" H 4950 3300 50  0001 C CNN
+F 3 "" H 4950 3300 50  0001 C CNN
+	1    4950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F29A7
+P 5550 3300
+F 0 "#PWR?" H 5550 3050 50  0001 C CNN
+F 1 "GND" H 5555 3127 50  0000 C CNN
+F 2 "" H 5550 3300 50  0001 C CNN
+F 3 "" H 5550 3300 50  0001 C CNN
+	1    5550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F3080
+P 6150 3300
+F 0 "#PWR?" H 6150 3050 50  0001 C CNN
+F 1 "GND" H 6155 3127 50  0000 C CNN
+F 2 "" H 6150 3300 50  0001 C CNN
+F 3 "" H 6150 3300 50  0001 C CNN
+	1    6150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F34E3
+P 6750 3300
+F 0 "#PWR?" H 6750 3050 50  0001 C CNN
+F 1 "GND" H 6755 3127 50  0000 C CNN
+F 2 "" H 6750 3300 50  0001 C CNN
+F 3 "" H 6750 3300 50  0001 C CNN
+	1    6750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F389C
+P 7350 3300
+F 0 "#PWR?" H 7350 3050 50  0001 C CNN
+F 1 "GND" H 7355 3127 50  0000 C CNN
+F 2 "" H 7350 3300 50  0001 C CNN
+F 3 "" H 7350 3300 50  0001 C CNN
+	1    7350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F3C33
+P 7950 3300
+F 0 "#PWR?" H 7950 3050 50  0001 C CNN
+F 1 "GND" H 7955 3127 50  0000 C CNN
+F 2 "" H 7950 3300 50  0001 C CNN
+F 3 "" H 7950 3300 50  0001 C CNN
+	1    7950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F3F97
+P 8550 3300
+F 0 "#PWR?" H 8550 3050 50  0001 C CNN
+F 1 "GND" H 8555 3127 50  0000 C CNN
+F 2 "" H 8550 3300 50  0001 C CNN
+F 3 "" H 8550 3300 50  0001 C CNN
+	1    8550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F4262
+P 9150 3300
+F 0 "#PWR?" H 9150 3050 50  0001 C CNN
+F 1 "GND" H 9155 3127 50  0000 C CNN
+F 2 "" H 9150 3300 50  0001 C CNN
+F 3 "" H 9150 3300 50  0001 C CNN
+	1    9150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F44CC
+P 9750 3300
+F 0 "#PWR?" H 9750 3050 50  0001 C CNN
+F 1 "GND" H 9755 3127 50  0000 C CNN
+F 2 "" H 9750 3300 50  0001 C CNN
+F 3 "" H 9750 3300 50  0001 C CNN
+	1    9750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0F48A7
+P 10350 3300
+F 0 "#PWR?" H 10350 3050 50  0001 C CNN
+F 1 "GND" H 10355 3127 50  0000 C CNN
+F 2 "" H 10350 3300 50  0001 C CNN
+F 3 "" H 10350 3300 50  0001 C CNN
+	1    10350 3300
+	1    0    0    -1  
+$EndComp
+Text HLabel 1350 2800 1    50   Input ~ 0
+NTCReturn1
+Text HLabel 1950 2800 1    50   Input ~ 0
+NTCReturn2
+Text HLabel 2550 2800 1    50   Input ~ 0
+NTCReturn3
+Text HLabel 3150 2800 1    50   Input ~ 0
+NTCReturn4
+Text HLabel 3750 2800 1    50   Input ~ 0
+NTCReturn5
+Text HLabel 4350 2800 1    50   Input ~ 0
+NTCReturn6
+Text HLabel 4950 2800 1    50   Input ~ 0
+NTCReturn7
+Text HLabel 5550 2800 1    50   Input ~ 0
+NTCReturn8
+Text HLabel 6150 2800 1    50   Input ~ 0
+NTCReturn9
+Text HLabel 6750 2800 1    50   Input ~ 0
+NTCReturn10
+Text HLabel 7350 2800 1    50   Input ~ 0
+NTCReturn11
+Text HLabel 7950 2800 1    50   Input ~ 0
+NTCReturn12
+Text HLabel 8550 2800 1    50   Input ~ 0
+NTCReturn13
+Text HLabel 9150 2800 1    50   Input ~ 0
+NTCReturn14
+Text HLabel 9750 2800 1    50   Input ~ 0
+NTCReturn15
+Text HLabel 10350 2800 1    50   Input ~ 0
+NTCReturn16
+Wire Wire Line
+	1350 2800 1350 2900
+Wire Wire Line
+	1950 2800 1950 2900
+Wire Wire Line
+	2550 2800 2550 2900
+Wire Wire Line
+	3150 2800 3150 2900
+Wire Wire Line
+	3750 2800 3750 2900
+Wire Wire Line
+	4350 2800 4350 2900
+Wire Wire Line
+	4950 2800 4950 2900
+Wire Wire Line
+	5550 2800 5550 2900
+Wire Wire Line
+	6150 2800 6150 2900
+Wire Wire Line
+	6750 2800 6750 2900
+Wire Wire Line
+	7350 2800 7350 2900
+Wire Wire Line
+	7950 2800 7950 2900
+Wire Wire Line
+	8550 2800 8550 2900
+Wire Wire Line
+	9150 2800 9150 2900
+Wire Wire Line
+	9750 2800 9750 2900
+Wire Wire Line
+	10350 2800 10350 2900
+Text HLabel 1250 2900 0    50   Input ~ 0
+VTemp1
+Text HLabel 1850 2900 0    50   Input ~ 0
+VTemp2
+Text HLabel 2450 2900 0    50   Input ~ 0
+VTemp3
+Text HLabel 3050 2900 0    50   Input ~ 0
+VTemp4
+Text HLabel 3650 2900 0    50   Input ~ 0
+VTemp5
+Text HLabel 4250 2900 0    50   Input ~ 0
+VTemp6
+Text HLabel 4850 2900 0    50   Input ~ 0
+VTemp7
+Text HLabel 5450 2900 0    50   Input ~ 0
+VTemp8
+Text HLabel 6050 2900 0    50   Input ~ 0
+VTemp9
+Text HLabel 6650 2900 0    50   Input ~ 0
+VTemp10
+Text HLabel 7250 2900 0    50   Input ~ 0
+VTemp11
+Text HLabel 7850 2900 0    50   Input ~ 0
+VTemp12
+Text HLabel 8450 2900 0    50   Input ~ 0
+VTemp13
+Text HLabel 9050 2900 0    50   Input ~ 0
+VTemp14
+Text HLabel 9650 2900 0    50   Input ~ 0
+VTemp15
+Text HLabel 10250 2900 0    50   Input ~ 0
+VTemp16
+Wire Wire Line
+	10250 2900 10350 2900
+Connection ~ 10350 2900
+Wire Wire Line
+	10350 2900 10350 3000
+Wire Wire Line
+	9650 2900 9750 2900
+Connection ~ 9750 2900
+Wire Wire Line
+	9750 2900 9750 3000
+Wire Wire Line
+	9150 2900 9050 2900
+Connection ~ 9150 2900
+Wire Wire Line
+	9150 2900 9150 3000
+Wire Wire Line
+	8550 2900 8450 2900
+Connection ~ 8550 2900
+Wire Wire Line
+	8550 2900 8550 3000
+Wire Wire Line
+	7950 2900 7850 2900
+Connection ~ 7950 2900
+Wire Wire Line
+	7950 2900 7950 3000
+Wire Wire Line
+	7350 2900 7250 2900
+Connection ~ 7350 2900
+Wire Wire Line
+	7350 2900 7350 3000
+Wire Wire Line
+	6750 2900 6650 2900
+Connection ~ 6750 2900
+Wire Wire Line
+	6750 2900 6750 3000
+Wire Wire Line
+	6150 2900 6050 2900
+Connection ~ 6150 2900
+Wire Wire Line
+	6150 2900 6150 3000
+Wire Wire Line
+	5550 2900 5450 2900
+Connection ~ 5550 2900
+Wire Wire Line
+	5550 2900 5550 3000
+Wire Wire Line
+	4950 2900 4850 2900
+Connection ~ 4950 2900
+Wire Wire Line
+	4950 2900 4950 3000
+Wire Wire Line
+	4350 2900 4250 2900
+Connection ~ 4350 2900
+Wire Wire Line
+	4350 2900 4350 3000
+Wire Wire Line
+	3750 2900 3650 2900
+Connection ~ 3750 2900
+Wire Wire Line
+	3750 2900 3750 3000
+Wire Wire Line
+	3150 2900 3050 2900
+Connection ~ 3150 2900
+Wire Wire Line
+	3150 2900 3150 3000
+Wire Wire Line
+	2550 2900 2450 2900
+Connection ~ 2550 2900
+Wire Wire Line
+	2550 2900 2550 3000
+Wire Wire Line
+	1950 2900 1850 2900
+Connection ~ 1950 2900
+Wire Wire Line
+	1950 2900 1950 3000
+Wire Wire Line
+	1350 2900 1250 2900
+Connection ~ 1350 2900
+Wire Wire Line
+	1350 2900 1350 3000
+Text Notes 1350 2100 0    50   ~ 0
+Using 10k NTC Resistors\nModel: MF52AT
+$EndSCHEMATC
