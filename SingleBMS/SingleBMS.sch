@@ -225,7 +225,7 @@ L Device:R R?
 U 1 1 5DF06F1C
 P 2550 3950
 F 0 "R?" V 2650 3950 50  0000 C CNN
-F 1 "50k" V 2450 3950 50  0000 C CNN
+F 1 "40k" V 2450 3950 50  0000 C CNN
 F 2 "" V 2480 3950 50  0001 C CNN
 F 3 "~" H 2550 3950 50  0001 C CNN
 	1    2550 3950
@@ -751,8 +751,6 @@ Wire Wire Line
 Wire Wire Line
 	7250 7300 6000 7300
 NoConn ~ 6850 6500
-Text Notes 1950 4700 0    50   ~ 10
-Do I need a buffer stage here?
 $Comp
 L power:GND #PWR?
 U 1 1 5E58717E
@@ -839,27 +837,246 @@ Connection ~ 2100 3550
 $Comp
 L Amplifier_Operational:MCP6004 U?
 U 5 1 5E65C345
-P 2050 4650
-F 0 "U?" V 1725 4650 50  0000 C CNN
-F 1 "MCP6004" V 1816 4650 50  0000 C CNN
-F 2 "" H 2000 4750 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2100 4850 50  0001 C CNN
-	5    2050 4650
+P 1800 7600
+F 0 "U?" V 1475 7600 50  0000 C CNN
+F 1 "MCP6004" V 1566 7600 50  0000 C CNN
+F 2 "" H 1750 7700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1850 7800 50  0001 C CNN
+	5    1800 7600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E65EC52
-P 1750 4550
-F 0 "#PWR?" H 1750 4300 50  0001 C CNN
-F 1 "GND" H 1755 4377 50  0000 C CNN
-F 2 "" H 1750 4550 50  0001 C CNN
-F 3 "" H 1750 4550 50  0001 C CNN
-	1    1750 4550
+P 1500 7500
+F 0 "#PWR?" H 1500 7250 50  0001 C CNN
+F 1 "GND" H 1505 7327 50  0000 C CNN
+F 2 "" H 1500 7500 50  0001 C CNN
+F 3 "" H 1500 7500 50  0001 C CNN
+	1    1500 7500
 	1    0    0    -1  
 $EndComp
-Text Label 2350 4550 0    50   ~ 0
-Vcc
 Text Notes 1800 4250 0    50   ~ 0
 Swing: 0.3-4.7v\nTemp: -5-55ºC\nLower voltage = Hotter
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 2 1 5E67DF18
+P 1750 4850
+F 0 "U?" H 1750 5217 50  0000 C CNN
+F 1 "MCP6004" H 1750 5126 50  0000 C CNN
+F 2 "" H 1700 4950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1800 5050 50  0001 C CNN
+	2    1750 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E680338
+P 1850 5300
+F 0 "R?" V 1950 5300 50  0000 C CNN
+F 1 "590k" V 1750 5300 50  0000 C CNN
+F 2 "" V 1780 5300 50  0001 C CNN
+F 3 "~" H 1850 5300 50  0001 C CNN
+	1    1850 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E680950
+P 2200 5550
+F 0 "R?" H 2130 5504 50  0000 R CNN
+F 1 "10k" H 2130 5595 50  0000 R CNN
+F 2 "" V 2130 5550 50  0001 C CNN
+F 3 "~" H 2200 5550 50  0001 C CNN
+	1    2200 5550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 4850 1350 4850
+Wire Wire Line
+	2200 5400 2200 5300
+Wire Wire Line
+	2200 5300 2000 5300
+Wire Wire Line
+	2200 5300 2200 4950
+Wire Wire Line
+	2200 4950 2050 4950
+Connection ~ 2200 5300
+Wire Wire Line
+	1700 5300 1350 5300
+Wire Wire Line
+	1350 5300 1350 4850
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E72995C
+P 2500 4750
+F 0 "J?" H 2580 4742 50  0000 L CNN
+F 1 "Conn_01x02" H 2580 4651 50  0000 L CNN
+F 2 "" H 2500 4750 50  0001 C CNN
+F 3 "~" H 2500 4750 50  0001 C CNN
+	1    2500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E72AE72
+P 2300 4850
+F 0 "#PWR?" H 2300 4600 50  0001 C CNN
+F 1 "GND" H 2305 4677 50  0000 C CNN
+F 2 "" H 2300 4850 50  0001 C CNN
+F 3 "" H 2300 4850 50  0001 C CNN
+	1    2300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E73A666
+P 2200 5700
+F 0 "#PWR?" H 2200 5450 50  0001 C CNN
+F 1 "GND" H 2205 5527 50  0000 C CNN
+F 2 "" H 2200 5700 50  0001 C CNN
+F 3 "" H 2200 5700 50  0001 C CNN
+	1    2200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6004 U?
+U 2 1 5E75B1E7
+P 1700 6250
+F 0 "U?" H 1650 6600 50  0000 C CNN
+F 1 "MCP6004" H 1550 6500 50  0000 C CNN
+F 2 "" H 1650 6350 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1750 6450 50  0001 C CNN
+	2    1700 6250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E75B1F1
+P 1800 6700
+F 0 "R?" V 1900 6700 50  0000 C CNN
+F 1 "590k" V 1700 6700 50  0000 C CNN
+F 2 "" V 1730 6700 50  0001 C CNN
+F 3 "~" H 1800 6700 50  0001 C CNN
+	1    1800 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E75B1FB
+P 2150 6950
+F 0 "R?" H 2080 6904 50  0000 R CNN
+F 1 "10k" H 2080 6995 50  0000 R CNN
+F 2 "" V 2080 6950 50  0001 C CNN
+F 3 "~" H 2150 6950 50  0001 C CNN
+	1    2150 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 6250 1300 6250
+Wire Wire Line
+	2150 6800 2150 6700
+Wire Wire Line
+	2150 6700 1950 6700
+Wire Wire Line
+	2150 6700 2150 6350
+Wire Wire Line
+	2150 6350 2000 6350
+Connection ~ 2150 6700
+Wire Wire Line
+	1650 6700 1300 6700
+Wire Wire Line
+	1300 6700 1300 6250
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E75B20F
+P 2500 6150
+F 0 "J?" H 2580 6142 50  0000 L CNN
+F 1 "Conn_01x02" H 2580 6051 50  0000 L CNN
+F 2 "" H 2500 6150 50  0001 C CNN
+F 3 "~" H 2500 6150 50  0001 C CNN
+	1    2500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E75B219
+P 2300 6250
+F 0 "#PWR?" H 2300 6000 50  0001 C CNN
+F 1 "GND" H 2305 6077 50  0000 C CNN
+F 2 "" H 2300 6250 50  0001 C CNN
+F 3 "" H 2300 6250 50  0001 C CNN
+	1    2300 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 6150 2000 6150
+$Comp
+L power:GND #PWR?
+U 1 1 5E75B224
+P 2150 7100
+F 0 "#PWR?" H 2150 6850 50  0001 C CNN
+F 1 "GND" H 2155 6927 50  0000 C CNN
+F 2 "" H 2150 7100 50  0001 C CNN
+F 3 "" H 2150 7100 50  0001 C CNN
+	1    2150 7100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 6250
+Text Label 2100 7500 0    50   ~ 0
+Vcc
+Wire Wire Line
+	2300 4750 2050 4750
+Wire Wire Line
+	1300 4300 1550 4300
+Wire Wire Line
+	1550 4300 1550 3900
+Wire Wire Line
+	1550 3900 1800 3900
+Wire Wire Line
+	1800 3900 1800 3750
+Wire Wire Line
+	1300 4300 1300 6250
+Wire Wire Line
+	1350 4850 1350 4350
+Wire Wire Line
+	1350 4350 1600 4350
+Wire Wire Line
+	1600 4350 1600 3950
+Wire Wire Line
+	1600 3950 1850 3950
+Wire Wire Line
+	1850 3950 1850 3650
+Wire Wire Line
+	1850 3650 1800 3650
+Connection ~ 1350 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5E7EE0C2
+P 1400 3950
+F 0 "#PWR?" H 1400 3700 50  0001 C CNN
+F 1 "GND" H 1405 3777 50  0000 C CNN
+F 2 "" H 1400 3950 50  0001 C CNN
+F 3 "" H 1400 3950 50  0001 C CNN
+	1    1400 3950
+	1    0    0    -1  
+$EndComp
+Text Label 1400 3050 2    50   ~ 0
+Vcc
+Wire Notes Line
+	1250 4400 2700 4400
+Wire Notes Line
+	2700 4400 2700 4650
+Wire Notes Line
+	2700 4650 3250 4650
+Wire Notes Line
+	1250 4400 1250 7750
+Wire Notes Line
+	1250 7750 3050 7750
+Text Notes 3050 7750 2    50   Italic 10
+Current Sense Amplifier Stage\nCharge & Discharge
+Text Notes 2450 5000 0    50   ~ 0
+to external shunt
+Text Notes 2350 6050 0    50   ~ 0
+to external shunt
 $EndSCHEMATC
