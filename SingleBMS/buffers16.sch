@@ -206,34 +206,34 @@ Wire Wire Line
 	4050 3350 4000 3350
 Wire Wire Line
 	4050 2700 4000 2700
-Text Label 5650 5350 0    50   ~ 0
+Text Label 5600 5350 0    50   ~ 0
 Vcc
-Text Label 4650 5350 0    50   ~ 0
+Text Label 4550 5350 0    50   ~ 0
 Vcc
 $Comp
 L power:GND #PWR?
 U 1 1 5DE2AC36
-P 4050 5350
+P 3950 5350
 AR Path="/5DE2AC36" Ref="#PWR?"  Part="1" 
 AR Path="/5DD83A85/5DE2AC36" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4050 5100 50  0001 C CNN
-F 1 "GND" H 4055 5177 50  0000 C CNN
-F 2 "" H 4050 5350 50  0001 C CNN
-F 3 "" H 4050 5350 50  0001 C CNN
-	1    4050 5350
+F 0 "#PWR?" H 3950 5100 50  0001 C CNN
+F 1 "GND" H 3955 5177 50  0000 C CNN
+F 2 "" H 3950 5350 50  0001 C CNN
+F 3 "" H 3950 5350 50  0001 C CNN
+	1    3950 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DE2AC3C
-P 5050 5350
+P 5000 5350
 AR Path="/5DE2AC3C" Ref="#PWR?"  Part="1" 
 AR Path="/5DD83A85/5DE2AC3C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5050 5100 50  0001 C CNN
-F 1 "GND" H 5055 5177 50  0000 C CNN
-F 2 "" H 5050 5350 50  0001 C CNN
-F 3 "" H 5050 5350 50  0001 C CNN
-	1    5050 5350
+F 0 "#PWR?" H 5000 5100 50  0001 C CNN
+F 1 "GND" H 5005 5177 50  0000 C CNN
+F 2 "" H 5000 5350 50  0001 C CNN
+F 3 "" H 5000 5350 50  0001 C CNN
+	1    5000 5350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -283,27 +283,27 @@ $EndComp
 $Comp
 L Amplifier_Operational:MCP6004 U?
 U 5 1 5E625A3F
-P 7350 5450
-F 0 "U?" V 7025 5450 50  0000 C CNN
-F 1 "MCP6004" V 7116 5450 50  0000 C CNN
-F 2 "" H 7300 5550 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7400 5650 50  0001 C CNN
-	5    7350 5450
+P 7450 5450
+F 0 "U?" V 7125 5450 50  0000 C CNN
+F 1 "MCP6004" V 7216 5450 50  0000 C CNN
+F 2 "" H 7400 5550 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7500 5650 50  0001 C CNN
+	5    7450 5450
 	0    1    1    0   
 $EndComp
-Text Label 7650 5350 0    50   ~ 0
+Text Label 7750 5350 0    50   ~ 0
 Vcc
 $Comp
 L power:GND #PWR?
 U 1 1 5E62916B
-P 7050 5350
+P 7150 5350
 AR Path="/5E62916B" Ref="#PWR?"  Part="1" 
 AR Path="/5DD83A85/5E62916B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7050 5100 50  0001 C CNN
-F 1 "GND" H 7055 5177 50  0000 C CNN
-F 2 "" H 7050 5350 50  0001 C CNN
-F 3 "" H 7050 5350 50  0001 C CNN
-	1    7050 5350
+F 0 "#PWR?" H 7150 5100 50  0001 C CNN
+F 1 "GND" H 7155 5177 50  0000 C CNN
+F 2 "" H 7150 5350 50  0001 C CNN
+F 3 "" H 7150 5350 50  0001 C CNN
+	1    7150 5350
 	1    0    0    -1  
 $EndComp
 Connection ~ 7050 2700
@@ -365,12 +365,12 @@ $EndComp
 $Comp
 L Amplifier_Operational:MCP6004 U?
 U 5 1 5E641FD1
-P 6350 5450
-F 0 "U?" V 6025 5450 50  0000 C CNN
-F 1 "MCP6004" V 6116 5450 50  0000 C CNN
-F 2 "" H 6300 5550 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6400 5650 50  0001 C CNN
-	5    6350 5450
+P 6400 5450
+F 0 "U?" V 6075 5450 50  0000 C CNN
+F 1 "MCP6004" V 6166 5450 50  0000 C CNN
+F 2 "" H 6350 5550 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6450 5650 50  0001 C CNN
+	5    6400 5450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -432,12 +432,12 @@ $EndComp
 $Comp
 L Amplifier_Operational:MCP6004 U?
 U 5 1 5E64A54E
-P 5350 5450
-F 0 "U?" V 5025 5450 50  0000 C CNN
-F 1 "MCP6004" V 5116 5450 50  0000 C CNN
-F 2 "" H 5300 5550 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5400 5650 50  0001 C CNN
-	5    5350 5450
+P 5300 5450
+F 0 "U?" V 4975 5450 50  0000 C CNN
+F 1 "MCP6004" V 5066 5450 50  0000 C CNN
+F 2 "" H 5250 5550 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5350 5650 50  0001 C CNN
+	5    5300 5450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -455,17 +455,17 @@ Connection ~ 5050 4650
 $Comp
 L power:GND #PWR?
 U 1 1 5E64F0E8
-P 6050 5350
+P 6100 5350
 AR Path="/5E64F0E8" Ref="#PWR?"  Part="1" 
 AR Path="/5DD83A85/5E64F0E8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6050 5100 50  0001 C CNN
-F 1 "GND" H 6055 5177 50  0000 C CNN
-F 2 "" H 6050 5350 50  0001 C CNN
-F 3 "" H 6050 5350 50  0001 C CNN
-	1    6050 5350
+F 0 "#PWR?" H 6100 5100 50  0001 C CNN
+F 1 "GND" H 6105 5177 50  0000 C CNN
+F 2 "" H 6100 5350 50  0001 C CNN
+F 3 "" H 6100 5350 50  0001 C CNN
+	1    6100 5350
 	1    0    0    -1  
 $EndComp
-Text Label 6650 5350 0    50   ~ 0
+Text Label 6700 5350 0    50   ~ 0
 Vcc
 $Comp
 L Amplifier_Operational:MCP6004 U?
@@ -514,12 +514,12 @@ $EndComp
 $Comp
 L Amplifier_Operational:MCP6004 U?
 U 5 1 5E652881
-P 4350 5450
-F 0 "U?" V 4025 5450 50  0000 C CNN
-F 1 "MCP6004" V 4116 5450 50  0000 C CNN
-F 2 "" H 4300 5550 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4400 5650 50  0001 C CNN
-	5    4350 5450
+P 4250 5450
+F 0 "U?" V 3925 5450 50  0000 C CNN
+F 1 "MCP6004" V 4016 5450 50  0000 C CNN
+F 2 "" H 4200 5550 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4300 5650 50  0001 C CNN
+	5    4250 5450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -534,4 +534,100 @@ Connection ~ 4050 2700
 Connection ~ 4050 3350
 Connection ~ 4050 4000
 Connection ~ 4050 4650
+$Comp
+L Device:C C?
+U 1 1 5DF50E9D
+P 4550 5500
+F 0 "C?" H 4665 5546 50  0000 L CNN
+F 1 "0.01uF" H 4665 5455 50  0000 L CNN
+F 2 "" H 4588 5350 50  0001 C CNN
+F 3 "~" H 4550 5500 50  0001 C CNN
+	1    4550 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF51A74
+P 4550 5650
+AR Path="/5DF51A74" Ref="#PWR?"  Part="1" 
+AR Path="/5DD83A85/5DF51A74" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 5400 50  0001 C CNN
+F 1 "GND" H 4555 5477 50  0000 C CNN
+F 2 "" H 4550 5650 50  0001 C CNN
+F 3 "" H 4550 5650 50  0001 C CNN
+	1    4550 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DF5205C
+P 5600 5500
+F 0 "C?" H 5715 5546 50  0000 L CNN
+F 1 "0.01uF" H 5715 5455 50  0000 L CNN
+F 2 "" H 5638 5350 50  0001 C CNN
+F 3 "~" H 5600 5500 50  0001 C CNN
+	1    5600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF524F7
+P 5600 5650
+AR Path="/5DF524F7" Ref="#PWR?"  Part="1" 
+AR Path="/5DD83A85/5DF524F7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5600 5400 50  0001 C CNN
+F 1 "GND" H 5605 5477 50  0000 C CNN
+F 2 "" H 5600 5650 50  0001 C CNN
+F 3 "" H 5600 5650 50  0001 C CNN
+	1    5600 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DF5298F
+P 6700 5500
+F 0 "C?" H 6815 5546 50  0000 L CNN
+F 1 "0.01uF" H 6815 5455 50  0000 L CNN
+F 2 "" H 6738 5350 50  0001 C CNN
+F 3 "~" H 6700 5500 50  0001 C CNN
+	1    6700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DF52BA6
+P 7750 5500
+F 0 "C?" H 7865 5546 50  0000 L CNN
+F 1 "0.01uF" H 7865 5455 50  0000 L CNN
+F 2 "" H 7788 5350 50  0001 C CNN
+F 3 "~" H 7750 5500 50  0001 C CNN
+	1    7750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF5319A
+P 6700 5650
+AR Path="/5DF5319A" Ref="#PWR?"  Part="1" 
+AR Path="/5DD83A85/5DF5319A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6700 5400 50  0001 C CNN
+F 1 "GND" H 6705 5477 50  0000 C CNN
+F 2 "" H 6700 5650 50  0001 C CNN
+F 3 "" H 6700 5650 50  0001 C CNN
+	1    6700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF53599
+P 7750 5650
+AR Path="/5DF53599" Ref="#PWR?"  Part="1" 
+AR Path="/5DD83A85/5DF53599" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7750 5400 50  0001 C CNN
+F 1 "GND" H 7755 5477 50  0000 C CNN
+F 2 "" H 7750 5650 50  0001 C CNN
+F 3 "" H 7750 5650 50  0001 C CNN
+	1    7750 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
