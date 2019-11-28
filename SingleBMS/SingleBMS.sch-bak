@@ -784,8 +784,6 @@ Wire Notes Line
 Wire Notes Line
 	7650 2950 7650 5300
 Wire Notes Line
-	3250 500  8700 500 
-Wire Notes Line
 	8700 500  8700 2950
 Wire Notes Line
 	3250 500  3250 5300
@@ -795,7 +793,7 @@ Text Notes 8150 2950 0    50   Italic 10
 Voltage Sense
 Text Notes 6900 5300 0    50   Italic 10
 Temperature Sense
-Text Notes 6350 7800 0    50   Italic 10
+Text Notes 6300 7750 0    50   Italic 10
 Cell Balancing
 Wire Wire Line
 	3550 1500 3050 1500
@@ -1210,8 +1208,6 @@ Wire Notes Line
 	1100 5050 1100 7800
 Wire Notes Line
 	1100 7800 6900 7800
-Wire Notes Line
-	2400 5300 7650 5300
 Wire Wire Line
 	1300 4300 1300 7050
 Wire Wire Line
@@ -1232,7 +1228,7 @@ F 8 "EVAL BOARD FOR ESP-WROOM-32" H 9650 4200 50  0001 L BNN "Field8"
 	1    9650 4200
 	1    0    0    -1  
 $EndComp
-Text Label 8700 5100 2    50   ~ 0
+Text Label 8700 5150 3    50   ~ 0
 Vcc
 Wire Wire Line
 	8700 5100 8850 5100
@@ -1261,7 +1257,7 @@ Wire Wire Line
 	10800 2000 10450 2000
 Wire Wire Line
 	10450 3800 10800 3800
-Text Label 8700 3300 2    50   ~ 0
+Text Label 8700 3250 1    50   ~ 0
 Vcc33
 Wire Wire Line
 	8700 3300 8850 3300
@@ -1562,4 +1558,276 @@ Wire Wire Line
 Wire Wire Line
 	3450 5150 4050 5150
 Connection ~ 4050 5150
+$Comp
+L Device:R R?
+U 1 1 5E7FFABF
+P 3550 2650
+F 0 "R?" H 3620 2696 50  0000 L CNN
+F 1 "4.7k" H 3620 2605 50  0000 L CNN
+F 2 "" V 3480 2650 50  0001 C CNN
+F 3 "~" H 3550 2650 50  0001 C CNN
+	1    3550 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2500 3550 2200
+Wire Wire Line
+	3550 2800 3550 2850
+Wire Wire Line
+	3550 2850 3900 2850
+Wire Wire Line
+	3900 2850 3900 2700
+Wire Wire Line
+	3900 2700 4050 2700
+Connection ~ 4050 2700
+Wire Notes Line
+	8800 800  8800 2750
+Wire Notes Line
+	8800 2750 11200 2750
+Wire Notes Line
+	11200 2750 11200 800 
+Wire Notes Line
+	11200 800  8800 800 
+Text Notes 9500 2750 2    50   Italic 10
+I2C Level Shifter
+Wire Wire Line
+	10600 3300 10600 3250
+$Comp
+L Connector_Generic:Conn_01x19 J?
+U 1 1 5EB1AC65
+P 8200 4200
+F 0 "J?" H 8118 5317 50  0000 C CNN
+F 1 "Conn_01x19" H 8118 5226 50  0000 C CNN
+F 2 "" H 8200 4200 50  0001 C CNN
+F 3 "~" H 8200 4200 50  0001 C CNN
+	1    8200 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x19 J?
+U 1 1 5EB1CB67
+P 11050 4200
+F 0 "J?" H 11130 4242 50  0000 L CNN
+F 1 "Conn_01x19" H 11130 4151 50  0000 L CNN
+F 2 "" H 11050 4200 50  0001 C CNN
+F 3 "~" H 11050 4200 50  0001 C CNN
+	1    11050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 3800 10800 3800
+Connection ~ 10800 3800
+Wire Wire Line
+	10850 3500 10750 3500
+Connection ~ 10750 3500
+Wire Wire Line
+	10850 3300 10600 3300
+Connection ~ 10600 3300
+Wire Wire Line
+	8700 3300 8700 3250
+Wire Wire Line
+	8700 3300 8400 3300
+Connection ~ 8700 3300
+Wire Wire Line
+	8700 5150 8700 5100
+Wire Wire Line
+	8700 5100 8400 5100
+Connection ~ 8700 5100
+Wire Wire Line
+	8850 5000 8400 5000
+Wire Wire Line
+	8850 4900 8400 4900
+Wire Wire Line
+	8850 4800 8400 4800
+Wire Wire Line
+	8850 4700 8800 4700
+Wire Wire Line
+	8850 4600 8400 4600
+Wire Wire Line
+	8850 4500 8400 4500
+Wire Wire Line
+	8850 4400 8400 4400
+Wire Wire Line
+	8850 4300 8400 4300
+Wire Wire Line
+	8850 4200 8400 4200
+Wire Wire Line
+	8850 4100 8400 4100
+Wire Wire Line
+	8850 4000 8400 4000
+Wire Wire Line
+	8850 3900 8400 3900
+Wire Wire Line
+	8850 3800 8400 3800
+Wire Wire Line
+	8850 3700 8400 3700
+Wire Wire Line
+	8850 3600 8400 3600
+Wire Wire Line
+	8850 3500 8400 3500
+Wire Wire Line
+	8850 3400 8400 3400
+Wire Wire Line
+	10450 3400 10850 3400
+Wire Wire Line
+	10450 3600 10600 3600
+Wire Wire Line
+	10450 3700 10850 3700
+Wire Wire Line
+	10450 3900 10850 3900
+Wire Wire Line
+	10450 4000 10550 4000
+Wire Wire Line
+	10450 4100 10500 4100
+Wire Wire Line
+	10450 4200 10650 4200
+Wire Wire Line
+	10450 4300 10850 4300
+Wire Wire Line
+	10450 4400 10850 4400
+Wire Wire Line
+	10850 4500 10450 4500
+Wire Wire Line
+	10850 4600 10450 4600
+Wire Wire Line
+	10850 4700 10450 4700
+Wire Wire Line
+	10850 4800 10450 4800
+Wire Wire Line
+	10850 4900 10450 4900
+Wire Wire Line
+	10850 5000 10450 5000
+Wire Wire Line
+	10850 5100 10450 5100
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 5F0A6E77
+P 9700 5900
+F 0 "J?" V 9572 6280 50  0000 L CNN
+F 1 "Conn_01x08" V 9663 6280 50  0000 L CNN
+F 2 "" H 9700 5900 50  0001 C CNN
+F 3 "~" H 9700 5900 50  0001 C CNN
+	1    9700 5900
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	8650 6500 8650 5300
+Text Notes 8600 6500 2    50   Italic 10
+Linear 5v Regulator
+Text Label 10000 5650 1    50   ~ 0
+Vcc
+Wire Wire Line
+	10000 5650 10000 5700
+Text Label 9900 5650 1    50   ~ 0
+Vcc33
+Wire Wire Line
+	9900 5700 9900 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5F16922C
+P 9800 5650
+F 0 "#PWR?" H 9800 5400 50  0001 C CNN
+F 1 "GND" H 9850 5500 50  0000 C CNN
+F 2 "" H 9800 5650 50  0001 C CNN
+F 3 "" H 9800 5650 50  0001 C CNN
+	1    9800 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9800 5700 9800 5650
+Wire Wire Line
+	9700 5700 9700 5250
+Wire Wire Line
+	9700 5250 10500 5250
+Wire Wire Line
+	10500 5250 10500 4100
+Connection ~ 10500 4100
+Wire Wire Line
+	10500 4100 10850 4100
+Wire Wire Line
+	9600 5700 9600 5300
+Wire Wire Line
+	9600 5300 10550 5300
+Wire Wire Line
+	10550 5300 10550 4000
+Connection ~ 10550 4000
+Wire Wire Line
+	10550 4000 10850 4000
+Wire Wire Line
+	9500 5700 9500 5350
+Wire Wire Line
+	9500 5350 10600 5350
+Wire Wire Line
+	10600 5350 10600 3600
+Connection ~ 10600 3600
+Wire Wire Line
+	10600 3600 10850 3600
+Wire Wire Line
+	9400 5700 9400 5400
+Wire Wire Line
+	9400 5400 10650 5400
+Wire Wire Line
+	10650 5400 10650 4200
+Connection ~ 10650 4200
+Wire Wire Line
+	10650 4200 10850 4200
+Wire Wire Line
+	9300 5700 9300 5400
+Wire Wire Line
+	9300 5400 8800 5400
+Wire Wire Line
+	8800 5400 8800 4700
+Connection ~ 8800 4700
+Wire Wire Line
+	8800 4700 8400 4700
+Text Notes 9300 6000 3    50   Italic 0
+Card Detect
+Text Notes 9400 6000 3    50   Italic 0
+Chip Select
+Text Notes 9500 6000 3    50   Italic 0
+DI (MOSI)
+Text Notes 9600 6000 3    50   Italic 0
+DO (MISO)
+Text Notes 9700 6000 3    50   Italic 0
+CLK
+Text Notes 9800 6000 3    50   Italic 0
+GND
+Text Notes 9900 6000 3    50   Italic 0
+3.3v
+Text Notes 10000 6000 3    50   Italic 0
+5v
+Wire Notes Line
+	10700 5250 10700 6500
+Wire Notes Line
+	7400 6500 10700 6500
+Wire Notes Line
+	8850 5250 8850 5300
+Wire Notes Line
+	2400 5300 8850 5300
+Wire Notes Line
+	8850 5250 10700 5250
+Text Notes 10000 6500 0    50   Italic 10
+SD Card Breakout
+Wire Notes Line
+	700  2500 700  4500
+Wire Notes Line
+	700  4500 1800 4500
+Wire Notes Line
+	1800 4500 1800 4150
+Wire Notes Line
+	1800 4150 2000 4150
+Wire Notes Line
+	2000 4150 2000 2500
+Wire Notes Line
+	2000 2500 700  2500
+Text Notes 700  4500 0    50   Italic 10
+16 Bit I2C ADC
+Wire Notes Line
+	1350 2500 1350 500 
+Wire Notes Line
+	1350 500  8700 500 
+Wire Notes Line
+	2000 2900 3250 2900
+Text Notes 1400 600  0    50   Italic 10
+8 Bit GPIO I2C Expander
 $EndSCHEMATC
