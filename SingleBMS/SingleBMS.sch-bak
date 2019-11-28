@@ -1408,7 +1408,7 @@ F 3 "" H 1900 2100 50  0001 C CNN
 	1    1900 2100
 	1    0    0    -1  
 $EndComp
-Text Notes 2200 2500 2    50   ~ 0
+Text Notes 2450 2650 2    50   ~ 0
 Read 0x41\nWrite 0x40
 Text Label 2000 1500 2    50   ~ 0
 SCL
@@ -1608,7 +1608,7 @@ L Connector_Generic:Conn_01x19 J?
 U 1 1 5EB1CB67
 P 11050 4200
 F 0 "J?" H 11130 4242 50  0000 L CNN
-F 1 "Conn_01x19" H 11130 4151 50  0000 L CNN
+F 1 "Conn_01x19" H 10750 3200 50  0000 L CNN
 F 2 "" H 11050 4200 50  0001 C CNN
 F 3 "~" H 11050 4200 50  0001 C CNN
 	1    11050 4200
