@@ -837,194 +837,31 @@ Connection ~ 2100 3550
 $Comp
 L Amplifier_Operational:MCP6004 U?
 U 5 1 5E65C345
-P 1650 7300
-F 0 "U?" V 1325 7300 50  0000 C CNN
-F 1 "MCP6004" V 1416 7300 50  0000 C CNN
-F 2 "" H 1600 7400 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1700 7500 50  0001 C CNN
-	5    1650 7300
+P 2200 7400
+F 0 "U?" V 1875 7400 50  0000 C CNN
+F 1 "MCP6004" V 1966 7400 50  0000 C CNN
+F 2 "" H 2150 7500 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2250 7600 50  0001 C CNN
+	5    2200 7400
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E65EC52
-P 1350 7200
-F 0 "#PWR?" H 1350 6950 50  0001 C CNN
-F 1 "GND" H 1355 7027 50  0000 C CNN
-F 2 "" H 1350 7200 50  0001 C CNN
-F 3 "" H 1350 7200 50  0001 C CNN
-	1    1350 7200
+P 1900 7300
+F 0 "#PWR?" H 1900 7050 50  0001 C CNN
+F 1 "GND" H 1905 7127 50  0000 C CNN
+F 2 "" H 1900 7300 50  0001 C CNN
+F 3 "" H 1900 7300 50  0001 C CNN
+	1    1900 7300
 	1    0    0    -1  
 $EndComp
 Text Notes 1800 4250 0    50   ~ 0
 Swing: 0.3-4.7v\nTemp: -5-55ºC\nLower voltage = Hotter
-$Comp
-L Amplifier_Operational:MCP6004 U?
-U 2 1 5E67DF18
-P 1750 4850
-F 0 "U?" H 1750 5217 50  0000 C CNN
-F 1 "MCP6004" H 1750 5126 50  0000 C CNN
-F 2 "" H 1700 4950 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1800 5050 50  0001 C CNN
-	2    1750 4850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E680338
-P 1850 5300
-F 0 "R?" V 1950 5300 50  0000 C CNN
-F 1 "590k" V 1750 5300 50  0000 C CNN
-F 2 "" V 1780 5300 50  0001 C CNN
-F 3 "~" H 1850 5300 50  0001 C CNN
-	1    1850 5300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E680950
-P 2200 5550
-F 0 "R?" H 2130 5504 50  0000 R CNN
-F 1 "10k" H 2130 5595 50  0000 R CNN
-F 2 "" V 2130 5550 50  0001 C CNN
-F 3 "~" H 2200 5550 50  0001 C CNN
-	1    2200 5550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1450 4850 1350 4850
-Wire Wire Line
-	2200 5400 2200 5300
-Wire Wire Line
-	2200 5300 2000 5300
-Wire Wire Line
-	2200 5300 2200 4950
-Wire Wire Line
-	2200 4950 2050 4950
-Connection ~ 2200 5300
-Wire Wire Line
-	1700 5300 1350 5300
-Wire Wire Line
-	1350 5300 1350 4850
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5E72995C
-P 2500 4750
-F 0 "J?" H 2580 4742 50  0000 L CNN
-F 1 "Conn_01x02" H 2580 4651 50  0000 L CNN
-F 2 "" H 2500 4750 50  0001 C CNN
-F 3 "~" H 2500 4750 50  0001 C CNN
-	1    2500 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E72AE72
-P 2300 4850
-F 0 "#PWR?" H 2300 4600 50  0001 C CNN
-F 1 "GND" H 2305 4677 50  0000 C CNN
-F 2 "" H 2300 4850 50  0001 C CNN
-F 3 "" H 2300 4850 50  0001 C CNN
-	1    2300 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E73A666
-P 2200 5700
-F 0 "#PWR?" H 2200 5450 50  0001 C CNN
-F 1 "GND" H 2205 5527 50  0000 C CNN
-F 2 "" H 2200 5700 50  0001 C CNN
-F 3 "" H 2200 5700 50  0001 C CNN
-	1    2200 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6004 U?
-U 2 1 5E75B1E7
-P 1700 6250
-F 0 "U?" H 1650 6600 50  0000 C CNN
-F 1 "MCP6004" H 1550 6500 50  0000 C CNN
-F 2 "" H 1650 6350 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1750 6450 50  0001 C CNN
-	2    1700 6250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E75B1F1
-P 1800 6700
-F 0 "R?" V 1900 6700 50  0000 C CNN
-F 1 "590k" V 1700 6700 50  0000 C CNN
-F 2 "" V 1730 6700 50  0001 C CNN
-F 3 "~" H 1800 6700 50  0001 C CNN
-	1    1800 6700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E75B1FB
-P 2300 6950
-F 0 "R?" H 2230 6904 50  0000 R CNN
-F 1 "10k" H 2230 6995 50  0000 R CNN
-F 2 "" V 2230 6950 50  0001 C CNN
-F 3 "~" H 2300 6950 50  0001 C CNN
-	1    2300 6950
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1400 6250 1300 6250
-Wire Wire Line
-	2150 6700 1950 6700
-Wire Wire Line
-	2150 6700 2150 6350
-Wire Wire Line
-	2150 6350 2000 6350
-Connection ~ 2150 6700
-Wire Wire Line
-	1650 6700 1300 6700
-Wire Wire Line
-	1300 6700 1300 6250
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5E75B20F
-P 2500 6150
-F 0 "J?" H 2580 6142 50  0000 L CNN
-F 1 "Conn_01x02" H 2580 6051 50  0000 L CNN
-F 2 "" H 2500 6150 50  0001 C CNN
-F 3 "~" H 2500 6150 50  0001 C CNN
-	1    2500 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E75B219
-P 2300 6250
-F 0 "#PWR?" H 2300 6000 50  0001 C CNN
-F 1 "GND" H 2305 6077 50  0000 C CNN
-F 2 "" H 2300 6250 50  0001 C CNN
-F 3 "" H 2300 6250 50  0001 C CNN
-	1    2300 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 6150 2000 6150
-$Comp
-L power:GND #PWR?
-U 1 1 5E75B224
-P 2300 7100
-F 0 "#PWR?" H 2300 6850 50  0001 C CNN
-F 1 "GND" H 2305 6927 50  0000 C CNN
-F 2 "" H 2300 7100 50  0001 C CNN
-F 3 "" H 2300 7100 50  0001 C CNN
-	1    2300 7100
-	1    0    0    -1  
-$EndComp
-Connection ~ 1300 6250
-Text Label 1950 7200 0    50   ~ 0
+Text Label 2500 7300 0    50   ~ 0
 Vcc
-Wire Wire Line
-	2300 4750 2050 4750
 Wire Wire Line
 	1300 4300 1550 4300
 Wire Wire Line
@@ -1033,10 +870,6 @@ Wire Wire Line
 	1550 3900 1800 3900
 Wire Wire Line
 	1800 3900 1800 3750
-Wire Wire Line
-	1300 4300 1300 6250
-Wire Wire Line
-	1350 4850 1350 4350
 Wire Wire Line
 	1350 4350 1600 4350
 Wire Wire Line
@@ -1047,7 +880,6 @@ Wire Wire Line
 	1850 3950 1850 3650
 Wire Wire Line
 	1850 3650 1800 3650
-Connection ~ 1350 4850
 $Comp
 L power:GND #PWR?
 U 1 1 5E7EE0C2
@@ -1071,36 +903,28 @@ Wire Notes Line
 	1250 4400 1250 7750
 Wire Notes Line
 	1250 7750 3050 7750
-Text Notes 3050 7750 2    50   Italic 10
+Text Notes 3000 5750 2    50   Italic 10
 Current Sense Amplifier Stage\nCharge & Discharge
-Text Notes 2450 5000 0    50   ~ 0
-to external shunt
-Text Notes 2350 6050 0    50   ~ 0
-to external shunt
-Wire Wire Line
-	2150 6700 2300 6700
-Wire Wire Line
-	2300 6700 2300 6800
 $Comp
 L Device:C C?
 U 1 1 5DE2F865
-P 1950 7350
-F 0 "C?" H 2065 7396 50  0000 L CNN
-F 1 "0.01uF" H 2065 7305 50  0000 L CNN
-F 2 "" H 1988 7200 50  0001 C CNN
-F 3 "~" H 1950 7350 50  0001 C CNN
-	1    1950 7350
+P 2500 7450
+F 0 "C?" H 2615 7496 50  0000 L CNN
+F 1 "0.01uF" H 2615 7405 50  0000 L CNN
+F 2 "" H 2538 7300 50  0001 C CNN
+F 3 "~" H 2500 7450 50  0001 C CNN
+	1    2500 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5DE302D4
-P 1950 7500
-F 0 "#PWR?" H 1950 7250 50  0001 C CNN
-F 1 "GND" H 1800 7450 50  0000 C CNN
-F 2 "" H 1950 7500 50  0001 C CNN
-F 3 "" H 1950 7500 50  0001 C CNN
-	1    1950 7500
+P 2500 7600
+F 0 "#PWR?" H 2500 7350 50  0001 C CNN
+F 1 "GND" H 2350 7550 50  0000 C CNN
+F 2 "" H 2500 7600 50  0001 C CNN
+F 3 "" H 2500 7600 50  0001 C CNN
+	1    2500 7600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1268,20 +1092,118 @@ Wire Wire Line
 Connection ~ 7600 5700
 Wire Wire Line
 	7600 6100 7900 6100
+Wire Wire Line
+	1450 5000 1350 5000
 $Comp
-L ESP32-DEVKITC:ESP32-DEVKITC U?
-U 1 1 5DF6DDD1
-P 9850 4250
-F 0 "U?" H 9850 5717 50  0000 C CNN
-F 1 "ESP32-DEVKITC" H 9850 5626 50  0000 C CNN
-F 2 "XCVR_ESP32-DEVKITC" H 9850 4250 50  0001 L BNN
-F 3 "Module: development kit; Ciphering: AES, WPA, WPA2-PSK, WPS" H 9850 4250 50  0001 L BNN
-F 4 "ESP32-DEVKITC" H 9850 4250 50  0001 L BNN "Field4"
-F 5 "None" H 9850 4250 50  0001 L BNN "Field5"
-F 6 "Unavailable" H 9850 4250 50  0001 L BNN "Field6"
-F 7 "Olimex LTD" H 9850 4250 50  0001 L BNN "Field7"
-F 8 "None" H 9850 4250 50  0001 L BNN "Field8"
-	1    9850 4250
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5DF887C6
+P 2500 4950
+F 0 "J?" H 2500 4750 50  0000 L CNN
+F 1 "Conn_01x02" H 2100 5050 50  0000 L CNN
+F 2 "" H 2500 4950 50  0001 C CNN
+F 3 "~" H 2500 4950 50  0001 C CNN
+	1    2500 4950
 	1    0    0    -1  
 $EndComp
+Text Notes 2050 5250 0    50   ~ 0
+to external shunt
+Wire Wire Line
+	2300 5050 2150 5050
+Wire Wire Line
+	2150 5050 2150 5100
+Wire Wire Line
+	2150 5100 2050 5100
+Wire Wire Line
+	2050 4900 2150 4900
+Wire Wire Line
+	2150 4900 2150 4950
+Wire Wire Line
+	2150 4950 2300 4950
+Wire Wire Line
+	1300 4300 1300 6250
+Wire Wire Line
+	1350 4350 1350 5000
+$Comp
+L Amplifier_Current:INA194 U?
+U 1 1 5DFE7389
+P 1750 5000
+F 0 "U?" H 1800 5400 50  0000 C CNN
+F 1 "INA194" H 1900 5300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1750 5000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 1750 5000 50  0001 C CNN
+	1    1750 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Current:INA194 U?
+U 1 1 5DFFC707
+P 1700 6250
+F 0 "U?" H 1800 6650 50  0000 C CNN
+F 1 "INA194" H 1850 6550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1700 6250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina193.pdf" H 1700 6250 50  0001 C CNN
+	1    1700 6250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 6200 2250 6200
+Wire Wire Line
+	2100 6150 2100 6200
+Wire Wire Line
+	2000 6150 2100 6150
+Wire Wire Line
+	2100 6350 2000 6350
+Wire Wire Line
+	2100 6300 2100 6350
+Wire Wire Line
+	2250 6300 2100 6300
+Text Notes 1950 6500 0    50   ~ 0
+to external shunt
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E75B20F
+P 2450 6200
+F 0 "J?" H 2450 6000 50  0000 L CNN
+F 1 "Conn_01x02" H 2050 6300 50  0000 L CNN
+F 2 "" H 2450 6200 50  0001 C CNN
+F 3 "~" H 2450 6200 50  0001 C CNN
+	1    2450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E024A55
+P 1850 5300
+F 0 "#PWR?" H 1850 5050 50  0001 C CNN
+F 1 "GND" H 1855 5127 50  0000 C CNN
+F 2 "" H 1850 5300 50  0001 C CNN
+F 3 "" H 1850 5300 50  0001 C CNN
+	1    1850 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E024E4B
+P 1800 6550
+F 0 "#PWR?" H 1800 6300 50  0001 C CNN
+F 1 "GND" H 1805 6377 50  0000 C CNN
+F 2 "" H 1800 6550 50  0001 C CNN
+F 3 "" H 1800 6550 50  0001 C CNN
+	1    1800 6550
+	1    0    0    -1  
+$EndComp
+Text Label 1800 5850 0    50   ~ 0
+Vcc
+Text Label 1850 4600 0    50   ~ 0
+Vcc
+Wire Wire Line
+	1850 4600 1850 4700
+Wire Wire Line
+	1800 5850 1800 5950
+Text Notes 1400 6250 1    50   ~ 0
+50V/V Current Shunt Amplifiers
+Text Notes 1400 7650 0    50   ~ 0
+Power for MCP above\n
+Wire Notes Line
+	3050 7000 1250 7000
 $EndSCHEMATC
