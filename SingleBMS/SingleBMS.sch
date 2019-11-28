@@ -1259,8 +1259,6 @@ Wire Wire Line
 	10450 3800 10800 3800
 Text Label 8700 3250 1    50   ~ 0
 Vcc33
-Wire Wire Line
-	8700 3300 8850 3300
 $Comp
 L Device:R R4
 U 1 1 5E31F67F
@@ -1627,7 +1625,6 @@ Wire Wire Line
 	8700 3300 8700 3250
 Wire Wire Line
 	8700 3300 8400 3300
-Connection ~ 8700 3300
 Wire Wire Line
 	8700 5150 8700 5100
 Wire Wire Line
@@ -1641,8 +1638,6 @@ Wire Wire Line
 	8850 4800 8400 4800
 Wire Wire Line
 	8850 4700 8800 4700
-Wire Wire Line
-	8850 4600 8400 4600
 Wire Wire Line
 	8850 4500 8400 4500
 Wire Wire Line
@@ -1673,8 +1668,6 @@ Wire Wire Line
 	10450 3600 10600 3600
 Wire Wire Line
 	10450 3700 10850 3700
-Wire Wire Line
-	10450 3900 10850 3900
 Wire Wire Line
 	10450 4000 10550 4000
 Wire Wire Line
@@ -1830,4 +1823,12 @@ Wire Notes Line
 	2000 2900 3250 2900
 Text Notes 1400 600  0    50   Italic 10
 8 Bit GPIO I2C Expander
+NoConn ~ 1000 3350
+Wire Wire Line
+	8850 4600 8400 4600
+Wire Wire Line
+	8850 3300 8700 3300
+Connection ~ 8700 3300
+Wire Wire Line
+	10450 3900 10850 3900
 $EndSCHEMATC

@@ -28,17 +28,6 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 1600 900 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:BS170 Q1
-U 1 1 5E4DBA62
-P 2200 1250
-F 0 "Q1" H 2406 1296 50  0000 L CNN
-F 1 "BS170" H 2406 1205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 1175 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 2200 1250 50  0001 L CNN
-	1    2200 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R65
 U 1 1 5E4E4F59
 P 2300 900
@@ -1010,17 +999,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 1450 2300 1750
 $Comp
-L Transistor_FET:BS170 Q2
-U 1 1 5E944CA5
-P 4200 1250
-F 0 "Q2" H 4406 1296 50  0000 L CNN
-F 1 "BS170" H 4406 1205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4400 1175 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 4200 1250 50  0001 L CNN
-	1    4200 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D2
 U 1 1 5E944CB0
 P 3900 1400
@@ -1055,17 +1033,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 1450 4300 1750
 $Comp
-L Transistor_FET:BS170 Q3
-U 1 1 5E958FC6
-P 6200 1250
-F 0 "Q3" H 6406 1296 50  0000 L CNN
-F 1 "BS170" H 6406 1205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6400 1175 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 6200 1250 50  0001 L CNN
-	1    6200 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D3
 U 1 1 5E958FCD
 P 5900 1400
@@ -1099,17 +1066,6 @@ Wire Wire Line
 	5900 1750 5900 1550
 Wire Wire Line
 	6300 1450 6300 1750
-$Comp
-L Transistor_FET:BS170 Q4
-U 1 1 5E980EFD
-P 8200 1250
-F 0 "Q4" H 8406 1296 50  0000 L CNN
-F 1 "BS170" H 8406 1205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8400 1175 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 8200 1250 50  0001 L CNN
-	1    8200 1250
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:LED D4
 U 1 1 5E980F04
@@ -1154,17 +1110,6 @@ F 2 "" V 9030 800 50  0001 C CNN
 F 3 "~" H 9100 800 50  0001 C CNN
 	1    9100 800 
 	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:BS170 Q5
-U 1 1 5E9A8EBF
-P 10200 1250
-F 0 "Q5" H 10406 1296 50  0000 L CNN
-F 1 "BS170" H 10406 1205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10400 1175 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 10200 1250 50  0001 L CNN
-	1    10200 1250
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10350 1750 10300 1750
@@ -1213,17 +1158,6 @@ F 3 "~" H 1100 2150 50  0001 C CNN
 	1    1100 2150
 	0    1    1    0   
 $EndComp
-$Comp
-L Transistor_FET:BS170 Q6
-U 1 1 5E9CF088
-P 2200 2600
-F 0 "Q6" H 2406 2646 50  0000 L CNN
-F 1 "BS170" H 2406 2555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 2525 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 2200 2600 50  0001 L CNN
-	1    2200 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 3100 2300 3100
 $Comp
@@ -1270,17 +1204,6 @@ F 2 "" V 3030 2150 50  0001 C CNN
 F 3 "~" H 3100 2150 50  0001 C CNN
 	1    3100 2150
 	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:BS170 Q7
-U 1 1 5E9E9CA0
-P 4200 2600
-F 0 "Q7" H 4406 2646 50  0000 L CNN
-F 1 "BS170" H 4406 2555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4400 2525 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 4200 2600 50  0001 L CNN
-	1    4200 2600
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4350 3100 4300 3100
@@ -1329,17 +1252,6 @@ F 3 "~" H 5100 2150 50  0001 C CNN
 	1    5100 2150
 	0    1    1    0   
 $EndComp
-$Comp
-L Transistor_FET:BS170 Q8
-U 1 1 5EA044BA
-P 6200 2600
-F 0 "Q8" H 6406 2646 50  0000 L CNN
-F 1 "BS170" H 6406 2555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6400 2525 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 6200 2600 50  0001 L CNN
-	1    6200 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6350 3100 6300 3100
 $Comp
@@ -1386,17 +1298,6 @@ F 2 "" V 7030 2150 50  0001 C CNN
 F 3 "~" H 7100 2150 50  0001 C CNN
 	1    7100 2150
 	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:BS170 Q9
-U 1 1 5EA1E707
-P 8200 2600
-F 0 "Q9" H 8406 2646 50  0000 L CNN
-F 1 "BS170" H 8406 2555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8400 2525 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 8200 2600 50  0001 L CNN
-	1    8200 2600
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8350 3100 8300 3100
@@ -1445,17 +1346,6 @@ F 3 "~" H 9100 2150 50  0001 C CNN
 	1    9100 2150
 	0    1    1    0   
 $EndComp
-$Comp
-L Transistor_FET:BS170 Q10
-U 1 1 5EA376EE
-P 10200 2600
-F 0 "Q10" H 10406 2646 50  0000 L CNN
-F 1 "BS170" H 10406 2555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10400 2525 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 10200 2600 50  0001 L CNN
-	1    10200 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10350 3100 10300 3100
 $Comp
@@ -1502,17 +1392,6 @@ F 2 "" V 1030 3500 50  0001 C CNN
 F 3 "~" H 1100 3500 50  0001 C CNN
 	1    1100 3500
 	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:BS170 Q11
-U 1 1 5EA50B6B
-P 2200 3950
-F 0 "Q11" H 2406 3996 50  0000 L CNN
-F 1 "BS170" H 2406 3905 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 3875 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 2200 3950 50  0001 L CNN
-	1    2200 3950
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2350 4450 2300 4450
@@ -1561,17 +1440,6 @@ F 3 "~" H 3100 3500 50  0001 C CNN
 	1    3100 3500
 	0    1    1    0   
 $EndComp
-$Comp
-L Transistor_FET:BS170 Q12
-U 1 1 5EA69915
-P 4200 3950
-F 0 "Q12" H 4406 3996 50  0000 L CNN
-F 1 "BS170" H 4406 3905 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4400 3875 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 4200 3950 50  0001 L CNN
-	1    4200 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 4450 4300 4450
 $Comp
@@ -1618,17 +1486,6 @@ F 2 "" V 5030 3500 50  0001 C CNN
 F 3 "~" H 5100 3500 50  0001 C CNN
 	1    5100 3500
 	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:BS170 Q13
-U 1 1 5EA825A7
-P 6200 3950
-F 0 "Q13" H 6406 3996 50  0000 L CNN
-F 1 "BS170" H 6406 3905 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6400 3875 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 6200 3950 50  0001 L CNN
-	1    6200 3950
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6350 4450 6300 4450
@@ -1677,17 +1534,6 @@ F 3 "~" H 7100 3500 50  0001 C CNN
 	1    7100 3500
 	0    1    1    0   
 $EndComp
-$Comp
-L Transistor_FET:BS170 Q14
-U 1 1 5EA9AEAD
-P 8200 3950
-F 0 "Q14" H 8406 3996 50  0000 L CNN
-F 1 "BS170" H 8406 3905 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8400 3875 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 8200 3950 50  0001 L CNN
-	1    8200 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8350 4450 8300 4450
 $Comp
@@ -1734,17 +1580,6 @@ F 2 "" V 9030 3500 50  0001 C CNN
 F 3 "~" H 9100 3500 50  0001 C CNN
 	1    9100 3500
 	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:BS170 Q15
-U 1 1 5EAB345B
-P 10200 3950
-F 0 "Q15" H 10406 3996 50  0000 L CNN
-F 1 "BS170" H 10406 3905 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10400 3875 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 10200 3950 50  0001 L CNN
-	1    10200 3950
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10350 4450 10300 4450
@@ -1793,17 +1628,6 @@ F 3 "~" H 1100 4850 50  0001 C CNN
 	1    1100 4850
 	0    1    1    0   
 $EndComp
-$Comp
-L Transistor_FET:BS170 Q16
-U 1 1 5EACB7B0
-P 2200 5300
-F 0 "Q16" H 2406 5346 50  0000 L CNN
-F 1 "BS170" H 2406 5255 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 5225 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BS/BS170.pdf" H 2200 5300 50  0001 L CNN
-	1    2200 5300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 5800 2300 5800
 $Comp
@@ -1844,4 +1668,180 @@ Text Notes 1650 4600 2    50   ~ 0
 I through PC817\nmeasured: 6mA
 Text Notes 1850 5650 2    50   ~ 0
 I through PC817 output\nmeasured: 4.06mA
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF462FC
+P 2200 1250
+F 0 "Q?" H 2406 1296 50  0000 L CNN
+F 1 "2N7000" H 2406 1205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 1175 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 1250 50  0001 L CNN
+	1    2200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF46C28
+P 4200 1250
+F 0 "Q?" H 4406 1296 50  0000 L CNN
+F 1 "2N7000" H 4406 1205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4400 1175 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4200 1250 50  0001 L CNN
+	1    4200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF47992
+P 6200 1250
+F 0 "Q?" H 6406 1296 50  0000 L CNN
+F 1 "2N7000" H 6406 1205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6400 1175 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6200 1250 50  0001 L CNN
+	1    6200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF483E3
+P 8200 1250
+F 0 "Q?" H 8406 1296 50  0000 L CNN
+F 1 "2N7000" H 8406 1205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8400 1175 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8200 1250 50  0001 L CNN
+	1    8200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF492BB
+P 10200 1250
+F 0 "Q?" H 10406 1296 50  0000 L CNN
+F 1 "2N7000" H 10406 1205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10400 1175 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 10200 1250 50  0001 L CNN
+	1    10200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF49DC3
+P 2200 2600
+F 0 "Q?" H 2406 2646 50  0000 L CNN
+F 1 "2N7000" H 2406 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 2525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 2600 50  0001 L CNN
+	1    2200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF4AA76
+P 4200 2600
+F 0 "Q?" H 4406 2646 50  0000 L CNN
+F 1 "2N7000" H 4406 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4400 2525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4200 2600 50  0001 L CNN
+	1    4200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF4B44D
+P 6200 2600
+F 0 "Q?" H 6406 2646 50  0000 L CNN
+F 1 "2N7000" H 6406 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6400 2525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6200 2600 50  0001 L CNN
+	1    6200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF4BD30
+P 8200 2600
+F 0 "Q?" H 8406 2646 50  0000 L CNN
+F 1 "2N7000" H 8406 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8400 2525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8200 2600 50  0001 L CNN
+	1    8200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF4CBCB
+P 10200 2600
+F 0 "Q?" H 10406 2646 50  0000 L CNN
+F 1 "2N7000" H 10406 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10400 2525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 10200 2600 50  0001 L CNN
+	1    10200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF4DD33
+P 2200 3950
+F 0 "Q?" H 2406 3996 50  0000 L CNN
+F 1 "2N7000" H 2406 3905 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 3875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 3950 50  0001 L CNN
+	1    2200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF4E7C1
+P 4200 3950
+F 0 "Q?" H 4406 3996 50  0000 L CNN
+F 1 "2N7000" H 4406 3905 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4400 3875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4200 3950 50  0001 L CNN
+	1    4200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF4EFED
+P 6200 3950
+F 0 "Q?" H 6406 3996 50  0000 L CNN
+F 1 "2N7000" H 6406 3905 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6400 3875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6200 3950 50  0001 L CNN
+	1    6200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF4FAB8
+P 8200 3950
+F 0 "Q?" H 8406 3996 50  0000 L CNN
+F 1 "2N7000" H 8406 3905 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8400 3875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8200 3950 50  0001 L CNN
+	1    8200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF501B3
+P 10200 3950
+F 0 "Q?" H 10406 3996 50  0000 L CNN
+F 1 "2N7000" H 10406 3905 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10400 3875 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 10200 3950 50  0001 L CNN
+	1    10200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q?
+U 1 1 5DF514DF
+P 2200 5300
+F 0 "Q?" H 2406 5346 50  0000 L CNN
+F 1 "2N7000" H 2406 5255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 5225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 5300 50  0001 L CNN
+	1    2200 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
