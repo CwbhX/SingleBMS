@@ -1669,10 +1669,10 @@ I through PC817\nmeasured: 6mA
 Text Notes 1850 5650 2    50   ~ 0
 I through PC817 output\nmeasured: 4.06mA
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q1
 U 1 1 5DF462FC
 P 2200 1250
-F 0 "Q?" H 2406 1296 50  0000 L CNN
+F 0 "Q1" H 2406 1296 50  0000 L CNN
 F 1 "2N7000" H 2406 1205 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 1175 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 1250 50  0001 L CNN
@@ -1680,10 +1680,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 1250 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q2
 U 1 1 5DF46C28
 P 4200 1250
-F 0 "Q?" H 4406 1296 50  0000 L CNN
+F 0 "Q2" H 4406 1296 50  0000 L CNN
 F 1 "2N7000" H 4406 1205 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4400 1175 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4200 1250 50  0001 L CNN
@@ -1691,10 +1691,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4200 1250 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q3
 U 1 1 5DF47992
 P 6200 1250
-F 0 "Q?" H 6406 1296 50  0000 L CNN
+F 0 "Q3" H 6406 1296 50  0000 L CNN
 F 1 "2N7000" H 6406 1205 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6400 1175 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6200 1250 50  0001 L CNN
@@ -1702,10 +1702,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6200 1250 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q4
 U 1 1 5DF483E3
 P 8200 1250
-F 0 "Q?" H 8406 1296 50  0000 L CNN
+F 0 "Q4" H 8406 1296 50  0000 L CNN
 F 1 "2N7000" H 8406 1205 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8400 1175 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8200 1250 50  0001 L CNN
@@ -1713,10 +1713,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8200 1250 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q5
 U 1 1 5DF492BB
 P 10200 1250
-F 0 "Q?" H 10406 1296 50  0000 L CNN
+F 0 "Q5" H 10406 1296 50  0000 L CNN
 F 1 "2N7000" H 10406 1205 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10400 1175 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 10200 1250 50  0001 L CNN
@@ -1724,10 +1724,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 10200 1250 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q6
 U 1 1 5DF49DC3
 P 2200 2600
-F 0 "Q?" H 2406 2646 50  0000 L CNN
+F 0 "Q6" H 2406 2646 50  0000 L CNN
 F 1 "2N7000" H 2406 2555 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 2525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 2600 50  0001 L CNN
@@ -1735,10 +1735,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 2600 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q7
 U 1 1 5DF4AA76
 P 4200 2600
-F 0 "Q?" H 4406 2646 50  0000 L CNN
+F 0 "Q7" H 4406 2646 50  0000 L CNN
 F 1 "2N7000" H 4406 2555 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4400 2525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4200 2600 50  0001 L CNN
@@ -1746,10 +1746,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4200 2600 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q8
 U 1 1 5DF4B44D
 P 6200 2600
-F 0 "Q?" H 6406 2646 50  0000 L CNN
+F 0 "Q8" H 6406 2646 50  0000 L CNN
 F 1 "2N7000" H 6406 2555 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6400 2525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6200 2600 50  0001 L CNN
@@ -1757,10 +1757,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6200 2600 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q9
 U 1 1 5DF4BD30
 P 8200 2600
-F 0 "Q?" H 8406 2646 50  0000 L CNN
+F 0 "Q9" H 8406 2646 50  0000 L CNN
 F 1 "2N7000" H 8406 2555 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8400 2525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8200 2600 50  0001 L CNN
@@ -1768,10 +1768,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8200 2600 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q10
 U 1 1 5DF4CBCB
 P 10200 2600
-F 0 "Q?" H 10406 2646 50  0000 L CNN
+F 0 "Q10" H 10406 2646 50  0000 L CNN
 F 1 "2N7000" H 10406 2555 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10400 2525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 10200 2600 50  0001 L CNN
@@ -1779,10 +1779,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 10200 2600 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q11
 U 1 1 5DF4DD33
 P 2200 3950
-F 0 "Q?" H 2406 3996 50  0000 L CNN
+F 0 "Q11" H 2406 3996 50  0000 L CNN
 F 1 "2N7000" H 2406 3905 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 3875 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 3950 50  0001 L CNN
@@ -1790,10 +1790,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 3950 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q12
 U 1 1 5DF4E7C1
 P 4200 3950
-F 0 "Q?" H 4406 3996 50  0000 L CNN
+F 0 "Q12" H 4406 3996 50  0000 L CNN
 F 1 "2N7000" H 4406 3905 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4400 3875 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4200 3950 50  0001 L CNN
@@ -1801,10 +1801,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4200 3950 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q13
 U 1 1 5DF4EFED
 P 6200 3950
-F 0 "Q?" H 6406 3996 50  0000 L CNN
+F 0 "Q13" H 6406 3996 50  0000 L CNN
 F 1 "2N7000" H 6406 3905 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6400 3875 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6200 3950 50  0001 L CNN
@@ -1812,10 +1812,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6200 3950 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q14
 U 1 1 5DF4FAB8
 P 8200 3950
-F 0 "Q?" H 8406 3996 50  0000 L CNN
+F 0 "Q14" H 8406 3996 50  0000 L CNN
 F 1 "2N7000" H 8406 3905 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8400 3875 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8200 3950 50  0001 L CNN
@@ -1823,10 +1823,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 8200 3950 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q15
 U 1 1 5DF501B3
 P 10200 3950
-F 0 "Q?" H 10406 3996 50  0000 L CNN
+F 0 "Q15" H 10406 3996 50  0000 L CNN
 F 1 "2N7000" H 10406 3905 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10400 3875 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 10200 3950 50  0001 L CNN
@@ -1834,10 +1834,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 10200 3950 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7000 Q?
+L Transistor_FET:2N7000 Q16
 U 1 1 5DF514DF
 P 2200 5300
-F 0 "Q?" H 2406 5346 50  0000 L CNN
+F 0 "Q16" H 2406 5346 50  0000 L CNN
 F 1 "2N7000" H 2406 5255 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2400 5225 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2200 5300 50  0001 L CNN
