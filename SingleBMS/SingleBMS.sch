@@ -25,8 +25,6 @@ F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 7900 5650 50  0001 C CNN
 	1    7900 5700
 	1    0    0    -1  
 $EndComp
-Text Label 8250 5700 0    50   ~ 0
-Vcc
 $Sheet
 S 4900 650  1000 1850
 U 5DD83A85
@@ -150,15 +148,13 @@ $Comp
 L 74xx:CD74HC4067M U1
 U 1 1 5DD45332
 P 4050 1600
-F 0 "U1" H 4200 2600 50  0000 C CNN
+F 0 "U1" H 3900 2500 50  0000 C CNN
 F 1 "CD74HC4067M" H 4400 2500 50  0000 C CNN
 F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 4950 600 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 3700 2450 50  0001 C CNN
 	1    4050 1600
 	1    0    0    -1  
 $EndComp
-Text Label 4050 600  2    50   ~ 0
-Vcc
 $Comp
 L 74xx:CD74HC4067M U6
 U 1 1 5DCFC5C9
@@ -361,8 +357,6 @@ Wire Wire Line
 	4550 1000 4900 1000
 Wire Wire Line
 	4550 1100 4900 1100
-Text Label 4050 3050 2    50   ~ 0
-Vcc
 Wire Wire Line
 	4550 1200 4900 1200
 Wire Wire Line
@@ -400,8 +394,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 4100 5400 
 	1    3900 6500
 	1    0    0    -1  
 $EndComp
-Text Label 3900 5400 2    50   ~ 0
-Vcc
 $Comp
 L power:GND #PWR024
 U 1 1 5E226796
@@ -637,8 +629,6 @@ Wire Wire Line
 	7250 3950 7250 4850
 Wire Wire Line
 	7250 4850 6000 4850
-Text Label 7350 4050 0    50   ~ 0
-Vcc
 Wire Wire Line
 	7350 4050 6850 4050
 NoConn ~ 8250 1600
@@ -748,8 +738,6 @@ F 3 "" H 7900 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 5700 8200 5700
-Wire Wire Line
 	7900 6100 7900 6000
 Wire Wire Line
 	7600 5700 7550 5700
@@ -762,8 +750,6 @@ Wire Wire Line
 Connection ~ 6300 5900
 Wire Wire Line
 	6300 5900 6000 5900
-Text Label 2550 750  2    50   ~ 0
-Vcc
 $Comp
 L power:GND #PWR06
 U 1 1 5E5AF40B
@@ -830,8 +816,6 @@ F 3 "" H 1400 3950 50  0001 C CNN
 	1    1400 3950
 	1    0    0    -1  
 $EndComp
-Text Label 1400 2600 2    50   ~ 0
-Vcc
 Text Notes 2850 7750 2    50   Italic 10
 Current Sense Amplifier Stage\nCharge & Discharge
 $Comp
@@ -885,8 +869,6 @@ F 3 "" H 2300 1150 50  0001 C CNN
 	1    2300 1150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2550 750  2550 850 
 Wire Wire Line
 	2300 850  2550 850 
 Connection ~ 2550 850 
@@ -1080,14 +1062,6 @@ F 3 "" H 2000 7350 50  0001 C CNN
 	1    2000 7350
 	1    0    0    -1  
 $EndComp
-Text Label 2000 6650 0    50   ~ 0
-Vcc
-Text Label 2000 5400 0    50   ~ 0
-Vcc
-Wire Wire Line
-	2000 5400 2000 5450
-Wire Wire Line
-	2000 6650 2000 6700
 Text Notes 1200 6300 1    50   ~ 0
 50V/V Current Shunt Amplifiers
 $Comp
@@ -1171,10 +1145,6 @@ Wire Wire Line
 	2100 3550 2100 4200
 Wire Wire Line
 	2800 3650 2800 4200
-Text Label 2500 3150 0    50   ~ 0
-Vcc
-Wire Wire Line
-	2500 3150 2500 3200
 $Comp
 L Device:C C5
 U 1 1 5E1EF826
@@ -1228,8 +1198,6 @@ F 8 "EVAL BOARD FOR ESP-WROOM-32" H 9650 4200 50  0001 L BNN "Field8"
 	1    9650 4200
 	1    0    0    -1  
 $EndComp
-Text Label 8700 5150 3    50   ~ 0
-Vcc
 Wire Wire Line
 	8700 5100 8850 5100
 $Comp
@@ -1344,10 +1312,6 @@ Wire Wire Line
 Wire Wire Line
 	9550 1800 9550 1350
 Connection ~ 9550 1350
-Text Label 9550 1000 1    50   ~ 0
-Vcc
-Wire Wire Line
-	9550 1000 9550 1050
 $Comp
 L Device:R R3
 U 1 1 5E3E7D6C
@@ -1491,10 +1455,6 @@ F 3 "~" H 1550 2150 50  0001 C CNN
 	1    1550 2150
 	1    0    0    -1  
 $EndComp
-Text Label 1550 1900 2    50   ~ 0
-Vcc
-Wire Wire Line
-	1550 1900 1550 2000
 $Comp
 L Interface_Expansion:PCF8574 U2
 U 1 1 5DD1A83D
@@ -1521,10 +1481,6 @@ F 3 "~" H 3000 6450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3000 6600 3200 6600
-Text Label 3000 6250 0    50   ~ 0
-Vcc
-Wire Wire Line
-	3000 6250 3000 6300
 $Comp
 L power:GND #PWR09
 U 1 1 5E7C2201
@@ -1626,8 +1582,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 3300 8400 3300
 Wire Wire Line
-	8700 5150 8700 5100
-Wire Wire Line
 	8700 5100 8400 5100
 Connection ~ 8700 5100
 Wire Wire Line
@@ -1707,10 +1661,6 @@ Wire Notes Line
 	8650 6500 8650 5300
 Text Notes 8600 6500 2    50   Italic 10
 Linear 5v Regulator
-Text Label 10000 5650 1    50   ~ 0
-Vcc
-Wire Wire Line
-	10000 5650 10000 5700
 Text Label 9900 5650 1    50   ~ 0
 Vcc33
 Wire Wire Line
@@ -1831,4 +1781,79 @@ Wire Wire Line
 Connection ~ 8700 3300
 Wire Wire Line
 	10450 3900 10850 3900
+Text GLabel 3900 3050 0    50   Input ~ 0
+Vcc
+Wire Wire Line
+	3900 3050 4050 3050
+Connection ~ 4050 3050
+Text GLabel 2650 3050 2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	2500 3050 2650 3050
+Wire Wire Line
+	2500 3050 2500 3200
+Text GLabel 2650 700  2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	2550 700  2650 700 
+Wire Wire Line
+	2550 700  2550 850 
+Text GLabel 4350 600  2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	4050 600  4350 600 
+Connection ~ 4050 600 
+Text GLabel 9650 950  2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	9650 950  9550 950 
+Wire Wire Line
+	9550 950  9550 1050
+Text GLabel 8600 5200 0    50   Input ~ 0
+Vcc
+Wire Wire Line
+	8700 5200 8600 5200
+Wire Wire Line
+	8700 5100 8700 5200
+Text GLabel 10100 5600 2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	10100 5600 10000 5600
+Wire Wire Line
+	10000 5600 10000 5700
+Text GLabel 8300 5700 2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	8200 5700 8300 5700
+Text GLabel 3950 5400 2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	3900 5400 3950 5400
+Connection ~ 3900 5400
+Text GLabel 2050 6600 2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	2050 6600 2000 6600
+Wire Wire Line
+	2000 6600 2000 6700
+Text GLabel 2050 5350 2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	2050 5350 2000 5350
+Wire Wire Line
+	2000 5350 2000 5450
+Text GLabel 1450 2600 2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	1450 2600 1400 2600
+Text GLabel 7350 4050 2    50   Input ~ 0
+Vcc
+Text GLabel 1550 1800 1    50   Input ~ 0
+Vcc
+Wire Wire Line
+	1550 1800 1550 2000
+Text GLabel 3000 6200 2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	3000 6200 3000 6300
 $EndSCHEMATC

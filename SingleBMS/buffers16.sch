@@ -206,10 +206,6 @@ Wire Wire Line
 	4050 3350 4000 3350
 Wire Wire Line
 	4050 2700 4000 2700
-Text Label 5600 5350 0    50   ~ 0
-Vcc
-Text Label 4550 5350 0    50   ~ 0
-Vcc
 $Comp
 L power:GND #PWR?
 U 1 1 5DE2AC36
@@ -291,8 +287,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7500 5650 50 
 	5    7450 5450
 	0    1    1    0   
 $EndComp
-Text Label 7750 5350 0    50   ~ 0
-Vcc
 $Comp
 L power:GND #PWR?
 U 1 1 5E62916B
@@ -465,8 +459,6 @@ F 3 "" H 6100 5350 50  0001 C CNN
 	1    6100 5350
 	1    0    0    -1  
 $EndComp
-Text Label 6700 5350 0    50   ~ 0
-Vcc
 $Comp
 L Amplifier_Operational:MCP6004 U12
 U 1 1 5E652859
@@ -630,4 +622,24 @@ F 3 "" H 7750 5650 50  0001 C CNN
 	1    7750 5650
 	1    0    0    -1  
 $EndComp
+Text GLabel 7800 5350 2    50   Input ~ 0
+Vcc
+Text GLabel 6750 5350 2    50   Input ~ 0
+Vcc
+Text GLabel 5650 5350 2    50   Input ~ 0
+Vcc
+Text GLabel 4600 5350 2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	4600 5350 4550 5350
+Connection ~ 4550 5350
+Wire Wire Line
+	5650 5350 5600 5350
+Connection ~ 5600 5350
+Wire Wire Line
+	6750 5350 6700 5350
+Connection ~ 6700 5350
+Wire Wire Line
+	7800 5350 7750 5350
+Connection ~ 7750 5350
 $EndSCHEMATC
