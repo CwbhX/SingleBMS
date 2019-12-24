@@ -5,4 +5,4 @@
 A BMS to provide accurate management of a lithium based battery pack with up to 16 cells in series.
 
 
-[product-screenshot]: images/SingleBMS.png
+[product-screenshot]: SingleBMS/images/SingleBMS.png
