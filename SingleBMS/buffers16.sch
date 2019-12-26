@@ -240,6 +240,7 @@ F 0 "U15" H 7350 3067 50  0000 C CNN
 F 1 "MCP6004" H 7350 2976 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 2800 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7400 2900 50  0001 C CNN
+F 4 "C7378" H 7350 2700 50  0001 C CNN "LCSC"
 	1    7350 2700
 	-1   0    0    -1  
 $EndComp
@@ -251,6 +252,7 @@ F 0 "U15" H 7350 3717 50  0000 C CNN
 F 1 "MCP6004" H 7350 3626 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 3450 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7400 3550 50  0001 C CNN
+F 4 "C7378" H 7350 3350 50  0001 C CNN "LCSC"
 	2    7350 3350
 	-1   0    0    -1  
 $EndComp
@@ -262,6 +264,7 @@ F 0 "U15" H 7350 4367 50  0000 C CNN
 F 1 "MCP6004" H 7350 4276 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 4100 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7400 4200 50  0001 C CNN
+F 4 "C7378" H 7350 4000 50  0001 C CNN "LCSC"
 	3    7350 4000
 	-1   0    0    -1  
 $EndComp
@@ -273,6 +276,7 @@ F 0 "U15" H 7350 5017 50  0000 C CNN
 F 1 "MCP6004" H 7350 4926 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 4750 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7400 4850 50  0001 C CNN
+F 4 "C7378" H 7350 4650 50  0001 C CNN "LCSC"
 	4    7350 4650
 	-1   0    0    -1  
 $EndComp
@@ -284,6 +288,7 @@ F 0 "U15" V 7125 5450 50  0000 C CNN
 F 1 "MCP6004" V 7216 5450 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7400 5550 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7500 5650 50  0001 C CNN
+F 4 "C7378" V 7450 5450 50  0001 C CNN "LCSC"
 	5    7450 5450
 	0    1    1    0   
 $EndComp
@@ -320,6 +325,7 @@ F 0 "U14" H 6350 3067 50  0000 C CNN
 F 1 "MCP6004" H 6350 2976 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6300 2800 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6400 2900 50  0001 C CNN
+F 4 "C7378" H 6350 2700 50  0001 C CNN "LCSC"
 	1    6350 2700
 	-1   0    0    -1  
 $EndComp
@@ -331,6 +337,7 @@ F 0 "U14" H 6350 3717 50  0000 C CNN
 F 1 "MCP6004" H 6350 3626 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6300 3450 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6400 3550 50  0001 C CNN
+F 4 "C7378" H 6350 3350 50  0001 C CNN "LCSC"
 	2    6350 3350
 	-1   0    0    -1  
 $EndComp
@@ -342,6 +349,7 @@ F 0 "U14" H 6350 4367 50  0000 C CNN
 F 1 "MCP6004" H 6350 4276 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6300 4100 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6400 4200 50  0001 C CNN
+F 4 "C7378" H 6350 4000 50  0001 C CNN "LCSC"
 	3    6350 4000
 	-1   0    0    -1  
 $EndComp
@@ -353,6 +361,7 @@ F 0 "U14" H 6350 5017 50  0000 C CNN
 F 1 "MCP6004" H 6350 4926 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6300 4750 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6400 4850 50  0001 C CNN
+F 4 "C7378" H 6350 4650 50  0001 C CNN "LCSC"
 	4    6350 4650
 	-1   0    0    -1  
 $EndComp
@@ -364,6 +373,7 @@ F 0 "U14" V 6075 5450 50  0000 C CNN
 F 1 "MCP6004" V 6166 5450 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6350 5550 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6450 5650 50  0001 C CNN
+F 4 "C7378" V 6400 5450 50  0001 C CNN "LCSC"
 	5    6400 5450
 	0    1    1    0   
 $EndComp
@@ -387,6 +397,7 @@ F 0 "U13" H 5350 3067 50  0000 C CNN
 F 1 "MCP6004" H 5350 2976 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5300 2800 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5400 2900 50  0001 C CNN
+F 4 "C7378" H 5350 2700 50  0001 C CNN "LCSC"
 	1    5350 2700
 	-1   0    0    -1  
 $EndComp
@@ -398,6 +409,7 @@ F 0 "U13" H 5350 3717 50  0000 C CNN
 F 1 "MCP6004" H 5350 3626 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5300 3450 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5400 3550 50  0001 C CNN
+F 4 "C7378" H 5350 3350 50  0001 C CNN "LCSC"
 	2    5350 3350
 	-1   0    0    -1  
 $EndComp
@@ -409,6 +421,7 @@ F 0 "U13" H 5350 4367 50  0000 C CNN
 F 1 "MCP6004" H 5350 4276 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5300 4100 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5400 4200 50  0001 C CNN
+F 4 "C7378" H 5350 4000 50  0001 C CNN "LCSC"
 	3    5350 4000
 	-1   0    0    -1  
 $EndComp
@@ -420,6 +433,7 @@ F 0 "U13" H 5350 5017 50  0000 C CNN
 F 1 "MCP6004" H 5350 4926 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5300 4750 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5400 4850 50  0001 C CNN
+F 4 "C7378" H 5350 4650 50  0001 C CNN "LCSC"
 	4    5350 4650
 	-1   0    0    -1  
 $EndComp
@@ -431,6 +445,7 @@ F 0 "U13" V 4975 5450 50  0000 C CNN
 F 1 "MCP6004" V 5066 5450 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5250 5550 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5350 5650 50  0001 C CNN
+F 4 "C7378" V 5300 5450 50  0001 C CNN "LCSC"
 	5    5300 5450
 	0    1    1    0   
 $EndComp
@@ -467,6 +482,7 @@ F 0 "U12" H 4350 3067 50  0000 C CNN
 F 1 "MCP6004" H 4350 2976 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4300 2800 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4400 2900 50  0001 C CNN
+F 4 "C7378" H 4350 2700 50  0001 C CNN "LCSC"
 	1    4350 2700
 	-1   0    0    -1  
 $EndComp
@@ -478,6 +494,7 @@ F 0 "U12" H 4350 3717 50  0000 C CNN
 F 1 "MCP6004" H 4350 3626 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4300 3450 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4400 3550 50  0001 C CNN
+F 4 "C7378" H 4350 3350 50  0001 C CNN "LCSC"
 	2    4350 3350
 	-1   0    0    -1  
 $EndComp
@@ -489,6 +506,7 @@ F 0 "U12" H 4350 4367 50  0000 C CNN
 F 1 "MCP6004" H 4350 4276 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4300 4100 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4400 4200 50  0001 C CNN
+F 4 "C7378" H 4350 4000 50  0001 C CNN "LCSC"
 	3    4350 4000
 	-1   0    0    -1  
 $EndComp
@@ -500,6 +518,7 @@ F 0 "U12" H 4350 5017 50  0000 C CNN
 F 1 "MCP6004" H 4350 4926 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4300 4750 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4400 4850 50  0001 C CNN
+F 4 "C7378" H 4350 4650 50  0001 C CNN "LCSC"
 	4    4350 4650
 	-1   0    0    -1  
 $EndComp
@@ -511,6 +530,7 @@ F 0 "U12" V 3925 5450 50  0000 C CNN
 F 1 "MCP6004" V 4016 5450 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4200 5550 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4300 5650 50  0001 C CNN
+F 4 "C7378" V 4250 5450 50  0001 C CNN "LCSC"
 	5    4250 5450
 	0    1    1    0   
 $EndComp
@@ -534,6 +554,7 @@ F 0 "C11" H 4665 5546 50  0000 L CNN
 F 1 "0.01uF" H 4665 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4588 5350 50  0001 C CNN
 F 3 "~" H 4550 5500 50  0001 C CNN
+F 4 "C1846" H 4550 5500 50  0001 C CNN "LCSC"
 	1    4550 5500
 	1    0    0    -1  
 $EndComp
@@ -558,6 +579,7 @@ F 0 "C12" H 5715 5546 50  0000 L CNN
 F 1 "0.01uF" H 5715 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 5638 5350 50  0001 C CNN
 F 3 "~" H 5600 5500 50  0001 C CNN
+F 4 "C1846" H 5600 5500 50  0001 C CNN "LCSC"
 	1    5600 5500
 	1    0    0    -1  
 $EndComp
@@ -582,6 +604,7 @@ F 0 "C13" H 6815 5546 50  0000 L CNN
 F 1 "0.01uF" H 6815 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 6738 5350 50  0001 C CNN
 F 3 "~" H 6700 5500 50  0001 C CNN
+F 4 "C1846" H 6700 5500 50  0001 C CNN "LCSC"
 	1    6700 5500
 	1    0    0    -1  
 $EndComp
@@ -593,6 +616,7 @@ F 0 "C14" H 7865 5546 50  0000 L CNN
 F 1 "0.01uF" H 7865 5455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 7788 5350 50  0001 C CNN
 F 3 "~" H 7750 5500 50  0001 C CNN
+F 4 "C1846" H 7750 5500 50  0001 C CNN "LCSC"
 	1    7750 5500
 	1    0    0    -1  
 $EndComp
