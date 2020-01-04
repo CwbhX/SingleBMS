@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
     (user_trace_width 0.762)
@@ -9417,7 +9417,6 @@
   (segment (start 150.256999 115.348961) (end 151.494038 116.586) (width 0.254) (layer F.Cu) (net 108))
   (segment (start 150.256999 113.395001) (end 150.256999 115.348961) (width 0.254) (layer F.Cu) (net 108))
   (segment (start 151.384 112.268) (end 150.256999 113.395001) (width 0.254) (layer F.Cu) (net 108))
-  (segment (start 202.271999 114.466001) (end 201.422 115.316) (width 0.762) (layer F.Cu) (net 121))
   (segment (start 192.952001 122.086001) (end 190.754 119.888) (width 0.762) (layer F.Cu) (net 109))
   (segment (start 198.882 122.936) (end 198.032001 122.086001) (width 0.762) (layer F.Cu) (net 109))
   (segment (start 198.032001 122.086001) (end 192.952001 122.086001) (width 0.762) (layer F.Cu) (net 109))
@@ -9597,6 +9596,7 @@
   (segment (start 249.031001 107.330999) (end 249.031001 105.377039) (width 0.254) (layer F.Cu) (net 120))
   (segment (start 247.904 108.458) (end 249.031001 107.330999) (width 0.254) (layer F.Cu) (net 120))
   (segment (start 201.422 117.856) (end 205.232 114.046) (width 0.762) (layer F.Cu) (net 120))
+  (segment (start 202.271999 114.466001) (end 201.422 115.316) (width 0.762) (layer F.Cu) (net 121))
   (segment (start 202.853001 106.518999) (end 202.853001 113.884999) (width 0.762) (layer F.Cu) (net 121))
   (segment (start 208.534 100.838) (end 202.853001 106.518999) (width 0.762) (layer F.Cu) (net 121))
   (segment (start 249.174 99.170038) (end 248.047962 98.044) (width 0.254) (layer F.Cu) (net 121))
