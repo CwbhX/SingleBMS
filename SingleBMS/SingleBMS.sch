@@ -1362,15 +1362,6 @@ Wire Wire Line
 	9650 2000 9100 2000
 Wire Wire Line
 	9650 1900 9350 1900
-Wire Wire Line
-	9350 1600 9350 1350
-Wire Wire Line
-	9350 1350 9550 1350
-Wire Wire Line
-	9100 1350 9350 1350
-Connection ~ 9350 1350
-Wire Wire Line
-	9100 1400 9100 1350
 Text Label 9000 2000 2    50   ~ 0
 SDA
 Text Label 9000 1900 2    50   ~ 0
@@ -1394,8 +1385,8 @@ F 3 "" H 1900 2100 50  0001 C CNN
 	1    1900 2100
 	1    0    0    -1  
 $EndComp
-Text Notes 2450 2650 2    50   ~ 0
-Read 0x41\nWrite 0x40
+Text Notes 3200 2850 2    50   ~ 0
+Addr: 0x21\nbut TI says:\nRead 0x43\nWrite 0x42\n???
 Text Label 2000 1500 2    50   ~ 0
 SCL
 Text Label 2000 1600 2    50   ~ 0
@@ -1459,11 +1450,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 1900 1900 2000
 Connection ~ 1900 2000
-Wire Wire Line
-	2050 1800 1900 1800
-Wire Wire Line
-	1900 1800 1900 1900
-Connection ~ 1900 1900
 NoConn ~ 3200 6400
 NoConn ~ 3200 6300
 Text Notes 3400 6150 2    50   ~ 0
@@ -1472,8 +1458,8 @@ $Comp
 L Device:R R6
 U 1 1 5E6F31CF
 P 1550 2150
-F 0 "R6" H 1620 2196 50  0000 L CNN
-F 1 "4.7k" H 1620 2105 50  0000 L CNN
+F 0 "R6" H 1400 2200 50  0000 L CNN
+F 1 "4.7k" H 1350 2100 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 1480 2150 50  0001 C CNN
 F 3 "~" H 1550 2150 50  0001 C CNN
 F 4 "C17936" H 1550 2150 50  0001 C CNN "LCSC"
@@ -1493,7 +1479,7 @@ F 4 "C7605" H 2550 1900 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 2300 1550 2300
+	2050 2300 1700 2300
 $Comp
 L Device:R R11
 U 1 1 5E784E77
@@ -1885,4 +1871,21 @@ Text GLabel 3000 6200 2    50   Input ~ 0
 Vcc
 Wire Wire Line
 	3000 6200 3000 6300
+Wire Wire Line
+	9100 950  9350 950 
+Wire Wire Line
+	9100 950  9100 1400
+Connection ~ 9550 950 
+Wire Wire Line
+	9350 1600 9350 950 
+Connection ~ 9350 950 
+Wire Wire Line
+	9350 950  9550 950 
+Wire Wire Line
+	2050 1800 1700 1800
+Wire Wire Line
+	1700 1800 1700 2300
+Connection ~ 1700 2300
+Wire Wire Line
+	1700 2300 1550 2300
 $EndSCHEMATC
