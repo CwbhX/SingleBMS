@@ -1386,7 +1386,7 @@ F 3 "" H 1900 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 3200 2850 2    50   ~ 0
-Addr: 0x21\nbut TI says:\nRead 0x41\nWrite 0x40\n???
+Addr: 0x21\nbut TI says:\nRead 0x43\nWrite 0x42\n???
 Text Label 2000 1500 2    50   ~ 0
 SCL
 Text Label 2000 1600 2    50   ~ 0
